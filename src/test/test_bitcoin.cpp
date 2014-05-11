@@ -88,4 +88,3 @@ bool ShutdownRequested()
 {
   return false;
 }
-

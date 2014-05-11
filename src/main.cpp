@@ -27,7 +27,7 @@ using namespace std;
 using namespace boost;
 
 #if defined(NDEBUG)
-# error "Bitcoin cannot be compiled without assertions."
+# error "Auroracoin cannot be compiled without assertions."
 #endif
 
 //
@@ -1730,7 +1730,7 @@ bool FindUndoPos(CValidationState &state, int nFile, CDiskBlockPos &pos, unsigne
 static CCheckQueue<CScriptCheck> scriptcheckqueue(128);
 
 void ThreadScriptCheck() {
-    RenameThread("bitcoin-scriptch");
+    RenameThread("auroracoin-scriptch");
     scriptcheckqueue.Thread();
 }
 

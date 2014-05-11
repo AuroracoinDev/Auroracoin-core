@@ -138,7 +138,7 @@ void DebugMessageHandler(QtMsgType type, const QMessageLogContext& context, cons
 }
 #endif
 
-/** Class encapsulating Bitcoin Core startup and shutdown.
+/** Class encapsulating Auroracoin Core startup and shutdown.
  * Allows running startup and shutdown in a different thread from the UI thread.
  */
 class BitcoinCore: public QObject
@@ -163,7 +163,7 @@ private:
     void handleRunawayException(std::exception *e);
 };
 
-/** Main Bitcoin application object */
+/** Main Auroracoin application object */
 class BitcoinApplication: public QApplication
 {
     Q_OBJECT
@@ -173,7 +173,7 @@ public:
 
 #ifdef ENABLE_WALLET
     /// Create payment server
-    void createPaymentServer();
+    // void createPaymentServer();
 #endif
     /// Create options model
     void createOptionsModel();
@@ -212,7 +212,7 @@ private:
     BitcoinGUI *window;
     QTimer *pollShutdownTimer;
 #ifdef ENABLE_WALLET
-    PaymentServer* paymentServer;
+    // PaymentServer* paymentServer;
     WalletModel *walletModel;
 #endif
     int returnValue;
@@ -279,7 +279,7 @@ BitcoinApplication::BitcoinApplication(int &argc, char **argv):
     window(0),
     pollShutdownTimer(0),
 #ifdef ENABLE_WALLET
-    paymentServer(0),
+    // paymentServer(0),
     walletModel(0),
 #endif
     returnValue(0)
@@ -298,18 +298,20 @@ BitcoinApplication::~BitcoinApplication()
     delete window;
     window = 0;
 #ifdef ENABLE_WALLET
-    delete paymentServer;
-    paymentServer = 0;
+    // delete paymentServer;
+    // paymentServer = 0;
 #endif
     delete optionsModel;
     optionsModel = 0;
 }
 
 #ifdef ENABLE_WALLET
+/*
 void BitcoinApplication::createPaymentServer()
 {
     paymentServer = new PaymentServer(this);
 }
+*/
 #endif
 
 void BitcoinApplication::createOptionsModel()
@@ -388,10 +390,12 @@ void BitcoinApplication::initializeResult(int retval)
     returnValue = retval ? 0 : 1;
     if(retval)
     {
+/*
 #ifdef ENABLE_WALLET
         PaymentServer::LoadRootCAs();
         paymentServer->setOptionsModel(optionsModel);
 #endif
+*/
 
         emit splashFinished(window);
 
@@ -406,8 +410,10 @@ void BitcoinApplication::initializeResult(int retval)
             window->addWallet("~Default", walletModel);
             window->setCurrentWallet("~Default");
 
+/*
             connect(walletModel, SIGNAL(coinsSent(CWallet*,SendCoinsRecipient,QByteArray)),
                              paymentServer, SLOT(fetchPaymentACK(CWallet*,const SendCoinsRecipient&,QByteArray)));
+*/
         }
 #endif
 
@@ -421,8 +427,11 @@ void BitcoinApplication::initializeResult(int retval)
             window->show();
         }
 #ifdef ENABLE_WALLET
+        // Payment server disabled pending future work on specifications
+
         // Now that initialization/startup is done, process any command-line
-        // bitcoin: URIs or payment requests:
+        // auroracoin: URIs or payment requests:
+        /*
         connect(paymentServer, SIGNAL(receivedPaymentRequest(SendCoinsRecipient)),
                          window, SLOT(handlePaymentRequest(SendCoinsRecipient)));
         connect(window, SIGNAL(receivedURI(QString)),
@@ -430,6 +439,7 @@ void BitcoinApplication::initializeResult(int retval)
         connect(paymentServer, SIGNAL(message(QString,QString,unsigned int)),
                          window, SLOT(message(QString,QString,unsigned int)));
         QTimer::singleShot(100, paymentServer, SLOT(uiReady()));
+        */
 #endif
     } else {
         quit(); // Exit main loop
@@ -444,7 +454,7 @@ void BitcoinApplication::shutdownResult(int retval)
 
 void BitcoinApplication::handleRunawayException(const QString &message)
 {
-    QMessageBox::critical(0, "Runaway exception", BitcoinGUI::tr("A fatal error occurred. Bitcoin can no longer continue safely and will quit.") + QString("\n\n") + message);
+    QMessageBox::critical(0, "Runaway exception", BitcoinGUI::tr("A fatal error occurred. Auroracoin Core can no longer continue safely and will quit.") + QString("\n\n") + message);
     ::exit(1);
 }
 
@@ -515,14 +525,14 @@ int main(int argc, char *argv[])
     /// - Do not call GetDataDir(true) before this step finishes
     if (!boost::filesystem::is_directory(GetDataDir(false)))
     {
-        QMessageBox::critical(0, QObject::tr("Bitcoin"),
+        QMessageBox::critical(0, QObject::tr("Auroracoin Core"),
                               QObject::tr("Error: Specified data directory \"%1\" does not exist.").arg(QString::fromStdString(mapArgs["-datadir"])));
         return 1;
     }
     try {
         ReadConfigFile(mapArgs, mapMultiArgs);
     } catch(std::exception &e) {
-        QMessageBox::critical(0, QObject::tr("Bitcoin"),
+        QMessageBox::critical(0, QObject::tr("Auroracoin Core"),
                               QObject::tr("Error: Cannot parse configuration file: %1. Only use key=value syntax.").arg(e.what()));
         return false;
     }
@@ -535,7 +545,7 @@ int main(int argc, char *argv[])
 
     // Check for -testnet or -regtest parameter (Params() calls are only valid after this clause)
     if (!SelectParamsFromCommandLine()) {
-        QMessageBox::critical(0, QObject::tr("Bitcoin"), QObject::tr("Error: Invalid combination of -regtest and -testnet."));
+        QMessageBox::critical(0, QObject::tr("Auroracoin Core"), QObject::tr("Error: Invalid combination of -regtest and -testnet."));
         return 1;
     }
 #ifdef ENABLE_WALLET
@@ -563,8 +573,8 @@ int main(int argc, char *argv[])
         exit(0);
 
     // Start up the payment server early, too, so impatient users that click on
-    // bitcoin: links repeatedly have their payment requests routed to this process:
-    app.createPaymentServer();
+    // auroracoin: links repeatedly have their payment requests routed to this process:
+    // app.createPaymentServer();
 #endif
 
     /// 9. Main GUI initialization
@@ -595,7 +605,7 @@ int main(int argc, char *argv[])
         app.createWindow(isaTestNet);
         app.requestInitialize();
 #if defined(Q_OS_WIN) && QT_VERSION >= 0x050000
-        WinShutdownMonitor::registerShutdownBlockReason(QObject::tr("Bitcoin Core didn't yet exit safely..."), (HWND)app.getMainWinId());
+        WinShutdownMonitor::registerShutdownBlockReason(QObject::tr("Auroracoin Core didn't yet exit safely..."), (HWND)app.getMainWinId());
 #endif
         app.exec();
         app.requestShutdown();
