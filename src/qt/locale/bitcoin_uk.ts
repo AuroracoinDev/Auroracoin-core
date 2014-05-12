@@ -1353,8 +1353,8 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Enter a Auroracoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Введіть адресу Auroracoin (наприклад 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Auroracoin address (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
+        <translation>Введіть адресу Auroracoin (наприклад AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</translation>
     </message>
 </context>
 <context>
@@ -1898,8 +1898,8 @@ Address: %4
         <translation>&amp;Отримувач:</translation>
     </message>
     <message>
-        <source>The address to send the payment to (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Звернення до відправити платіж на (наприклад 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>The address to send the payment to (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
+        <translation>Звернення до відправити платіж на (наприклад AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
@@ -1988,8 +1988,8 @@ Address: %4
         <translation>Ви можете зареєструватися повідомленнями зі своїми адресами, щоб довести, що ви є їх власником. Будьте обережні, щоб не підписувати що-небудь неясне, як фішинг-атак може спробувати обдурити вас в підписанні вашу особистість до них. Тільки підписати повністю докладні свідчення, користувач зобов&apos;язується.</translation>
     </message>
     <message>
-        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Введіть адресу Auroracoin (наприклад 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>The address to sign the message with (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
+        <translation>Введіть адресу Auroracoin (наприклад AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2044,8 +2044,8 @@ Address: %4
         <translation>Введіть адресу підписання, повідомлення (забезпечення копіюванні розриви рядків, прогалини, вкладки і т.д. точно) і підпис нижче, щоб перевірити повідомлення. Будьте обережні, щоб не читати далі в підпис, ніж те, що в підписаному самого повідомлення, щоб уникнути обдурять нападу чоловік-в-середній.</translation>
     </message>
     <message>
-        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Введіть адресу Auroracoin (наприклад 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>The address the message was signed with (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
+        <translation>Введіть адресу Auroracoin (наприклад AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Auroracoin address</source>
@@ -2060,12 +2060,12 @@ Address: %4
         <translation>Скинути всі поля перевірки повідомлення</translation>
     </message>
     <message>
-        <source>Enter a Auroracoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Введіть адресу Auroracoin (наприклад 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Auroracoin address (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
+        <translation>Введіть адресу Auroracoin (наприклад AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</translation>
     </message>
     <message>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
-        <translation>Натисніть кнопку «Підписати повідомлення», для отримання підпису</translation>
+        <translation>Натисніть кнопку «Підписати повідомлення», для отримання під��ису</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>

@@ -1356,8 +1356,8 @@ Dirección: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Enter a Auroracoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Introduzca una dirección Auroracoin (ej. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Auroracoin address (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
+        <translation>Introduzca una dirección Auroracoin (ej. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</translation>
     </message>
 </context>
 <context>
@@ -1901,8 +1901,8 @@ Dirección: %4
         <translation>&amp;Pagar a:</translation>
     </message>
     <message>
-        <source>The address to send the payment to (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>La dirección a la que enviar el pago (p. ej. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>The address to send the payment to (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
+        <translation>La dirección a la que enviar el pago (p. ej. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
@@ -1991,8 +1991,8 @@ Dirección: %4
         <translation>Puede firmar mensajes con sus direcciones para demostrar que las posee. Tenga cuidado de no firmar cualquier cosa vaga, ya que los ataques de phishing pueden tratar de engañarle para suplantar su identidad. Firme solo declaraciones totalmente detalladas con las que usted esté de acuerdo.</translation>
     </message>
     <message>
-        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>La dirección con la que firmar el mensaje (ej. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>The address to sign the message with (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
+        <translation>La dirección con la que firmar el mensaje (ej. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2047,8 +2047,8 @@ Dirección: %4
         <translation>Introduzca la dirección para la firma, el mensaje (asegurándose de copiar tal cual los saltos de línea, espacios, tabulaciones, etc.) y la firma a continuación para verificar el mensaje. Tenga cuidado de no asumir más información de lo que dice el propio mensaje firmado para evitar fraudes basados en ataques de tipo man-in-the-middle.</translation>
     </message>
     <message>
-        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>La dirección con la que se firmó el mensaje (ej. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>The address the message was signed with (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
+        <translation>La dirección con la que se firmó el mensaje (ej. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Auroracoin address</source>
@@ -2063,8 +2063,8 @@ Dirección: %4
         <translation>Limpiar todos los campos de la verificación de mensaje</translation>
     </message>
     <message>
-        <source>Enter a Auroracoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Introduzca una dirección Auroracoin (ej. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Auroracoin address (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
+        <translation>Introduzca una dirección Auroracoin (ej. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</translation>
     </message>
     <message>
         <source>Click &quot;Sign Message&quot; to generate signature</source>

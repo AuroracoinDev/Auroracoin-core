@@ -846,7 +846,7 @@ Address: %4
     </message>
     <message>
         <source>The entered address &quot;%1&quot; is not a valid Auroracoin address.</source>
-        <translation>입력한 &quot;%1&quot; 주소는 올바른 비트코인 주소가 아닙니다.</translation>
+        <translation>���력한 &quot;%1&quot; 주소는 올바른 비트코인 주소가 아닙니다.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -1353,8 +1353,8 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Enter a Auroracoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>비트코인 주소를 입력하기 (예 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Auroracoin address (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
+        <translation>비트코인 주소를 입력하기 (예 AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</translation>
     </message>
 </context>
 <context>
@@ -1898,7 +1898,7 @@ Address: %4
         <translation>지급&amp;수신:</translation>
     </message>
     <message>
-        <source>The address to send the payment to (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <source>The address to send the payment to (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1988,8 +1988,8 @@ Address: %4
         <translation>여러분 자신을 증명하기 위해 주소를 첨가하고 섬여할 수 있습니다. 피싱 공격으로 말미암아 여러분의 서명을 통해 속아 넘어가게 할 수 있으므로, 서명하지 않은 어떤 모호한 요소든 주의하십시오. 동의하는 완전 무결한 조항에만 서명하십시오.</translation>
     </message>
     <message>
-        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>메시지를 서명할 주소 (예: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>The address to sign the message with (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
+        <translation>메시지를 서명할 주소 (예: AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2044,8 +2044,8 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>서명한 메시지의 주소입니다 (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>The address the message was signed with (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
+        <translation>서명한 메시지의 주소입니다 (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Auroracoin address</source>
@@ -2060,8 +2060,8 @@ Address: %4
         <translation>모든 검증 메시지 필드 재설정</translation>
     </message>
     <message>
-        <source>Enter a Auroracoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>비트코인 주소를 입력하기 (예 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Auroracoin address (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
+        <translation>비트코인 주소를 입력하기 (예 AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</translation>
     </message>
     <message>
         <source>Click &quot;Sign Message&quot; to generate signature</source>

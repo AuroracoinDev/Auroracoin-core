@@ -826,7 +826,7 @@ Address: %4
     </message>
     <message>
         <source>New receiving address</source>
-        <translation>ახალი მიღების მისამართ���</translation>
+        <translation>ახალი მიღების მისამართ�����</translation>
     </message>
     <message>
         <source>New sending address</source>
@@ -1353,8 +1353,8 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Enter a Auroracoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>შეიყვანეთ ბიტკოინ-მისამართი (მაგ. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Auroracoin address (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
+        <translation>შეიყვანეთ ბიტკოინ-მისამართი (მაგ. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</translation>
     </message>
 </context>
 <context>
@@ -1392,7 +1392,7 @@ Address: %4
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>&amp;ინფ���რმაცია</translation>
+        <translation>&amp;ინ������რმაცია</translation>
     </message>
     <message>
         <source>Debug window</source>
@@ -1898,8 +1898,8 @@ Address: %4
         <translation>ადრესა&amp;ტი:</translation>
     </message>
     <message>
-        <source>The address to send the payment to (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>მისამართი, რომლითაც ასრულებთ გადახდას (მაგ.: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>The address to send the payment to (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
+        <translation>მისამართი, რომლითაც ასრულებთ გადახდას (მაგ.: AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
@@ -1988,8 +1988,8 @@ Address: %4
         <translation>ხელმოწერით თქვენ ადასტურებთ, რომ მესიჯი თქვენია. ფრთხილად - არ მოაწეროთ ხელი რაიმე საეჭვოს: ფიშინგური ხრიკებით შეიძლება ის თქვენს მესიჯად გაასაღონ. მოაწერეთ ხელი მხოლოდ იმას, რასაც ყველა წვრილმანში ეთანხმებით.</translation>
     </message>
     <message>
-        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>მისამართი, რომლითაც ხელს აწერთ (მაგ.: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>The address to sign the message with (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
+        <translation>მისამართი, რომლითაც ხელს აწერთ (მაგ.: AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2044,8 +2044,8 @@ Address: %4
         <translation>შეიყვანეთ ხელმოწერის მისამართი, მესიჯი (დაუკვირდით, რომ ზუსტად იყოს კოპირებული სტრიქონის გადატანები, ჰარები, ტაბულაციები და სხვ) და ხელმოწერა მესიჯის ვერიფიკაციისათვის. მიაქციეთ ყურადღება, რომ რაიმე ზედმეტი არ გაგყვეთ კოპირებისას, რათა არ გახდეთ &quot;man-in-the-middle&quot; შეტევის ობიექტი.</translation>
     </message>
     <message>
-        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>მისამართი, რომლითაც ხელმოწერილია მესიჯი (მაგ.: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>The address the message was signed with (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
+        <translation>მისამართი, რომლითაც ხელმოწერილია მესიჯი (მაგ.: AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Auroracoin address</source>
@@ -2060,8 +2060,8 @@ Address: %4
         <translation>ვერიფიკაციის ყველა ველის წაშლა</translation>
     </message>
     <message>
-        <source>Enter a Auroracoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>შეიყვანეთ ბიტკოინ-მისამართი (მაგ. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Auroracoin address (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
+        <translation>შეიყვანეთ ბიტკოინ-მისამართი (მაგ. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</translation>
     </message>
     <message>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
@@ -2467,7 +2467,7 @@ Address: %4
     </message>
     <message>
         <source>Edit label</source>
-        <translation>ნიშნულის რედა���ტირება</translation>
+        <translation>ნიშნულის რ���და���ტირება</translation>
     </message>
     <message>
         <source>Show transaction details</source>
@@ -2679,7 +2679,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Auroracoin Alert&quot; admin@f
 </source>
         <translation>%s, მიუთითეთ rpcpassword საკონფიგურაციო ფაილში:
 %s
-რეკომენ���ებულია შემდეგი შემთხვევითი პაროლი:
+რე���ომენ���ებულია შემდეგი შემთხვევითი პაროლი:
 rpcuser=auroracoinrpc
 rpcpassword=%s
 (ამის დამახსოვრება არ გჭირდებათ)

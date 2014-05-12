@@ -1271,7 +1271,7 @@ Adres: %4
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
-        <translation>Talep edilen %1 meblağında ödeme çok düşüktür (toz olarak kabul edilir).</translation>
+        <translation>Talep edilen %1 meblağında ödeme çok d��şüktür (toz olarak kabul edilir).</translation>
     </message>
     <message>
         <source>Payment request error</source>
@@ -1353,8 +1353,8 @@ Adres: %4
         <translation>Auroracoin Çekirdeği henüz güvenli bir şekilde çıkış yapmamıştır...</translation>
     </message>
     <message>
-        <source>Enter a Auroracoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Auroracoin adresi giriniz (mesela 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Auroracoin address (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
+        <translation>Auroracoin adresi giriniz (mesela AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</translation>
     </message>
 </context>
 <context>
@@ -1898,8 +1898,8 @@ Adres: %4
         <translation>&amp;Şu adrese öde:</translation>
     </message>
     <message>
-        <source>The address to send the payment to (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Ödemenin gönderileceği adres (mesela 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>The address to send the payment to (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
+        <translation>Ödemenin gönderileceği adres (mesela AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
@@ -1988,8 +1988,8 @@ Adres: %4
         <translation>Bir adresin sizin olduğunu ispatlamak için adresinizle mesaj imzalayabilirsiniz. Oltalama saldırılarının kimliğinizi imzanızla elde etmeyi deneyebilecekleri için belirsiz hiçbir şey imzalamamaya dikkat ediniz. Sadece ayrıntılı açıklaması olan ve tümüne katıldığınız ifadeleri imzalayınız.</translation>
     </message>
     <message>
-        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Mesajın imzalanmasında kullanılacak adres (mesela 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>The address to sign the message with (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
+        <translation>Mesajın imzalanmasında kullanılacak adres (mesela AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2044,8 +2044,8 @@ Adres: %4
         <translation>İmza için kullanılan adresi, mesajı (satır sonları, boşluklar, sekmeler vs. karakterleri tam olarak kopyaladığınızdan emin olunuz) ve imzayı aşağıda giriniz. Bir ortadaki adam saldırısı tarafından kandırılmaya mâni olmak için imzadan, imzalı mesajın içeriğini aşan bir anlam çıkarmamaya dikkat ediniz.</translation>
     </message>
     <message>
-        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Mesajı imzalamak için kullanılmış olan adres (mesela 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>The address the message was signed with (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
+        <translation>Mesajı imzalamak için kullanılmış olan adres (mesela AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Auroracoin address</source>
@@ -2060,8 +2060,8 @@ Adres: %4
         <translation>Tüm mesaj kontrolü alanlarını sıfırla</translation>
     </message>
     <message>
-        <source>Enter a Auroracoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Auroracoin adresi giriniz (mesela 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Auroracoin address (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
+        <translation>Auroracoin adresi giriniz (mesela AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</translation>
     </message>
     <message>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
@@ -3003,7 +3003,7 @@ mesela: alertnotify=echo %%s | mail -s &quot;Auroracoin Alert&quot; admin@foo.co
     </message>
     <message>
         <source>Specify wallet file (within data directory)</source>
-        <translation>Cüzdan dosyası belirtiniz (veri klasörünün içinde)</translation>
+        <translation>Cüzdan dosyas�� belirtiniz (veri klasörünün içinde)</translation>
     </message>
     <message>
         <source>Spend unconfirmed change when sending transactions (default: 1)</source>

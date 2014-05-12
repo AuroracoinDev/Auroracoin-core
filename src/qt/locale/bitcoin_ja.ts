@@ -1312,7 +1312,7 @@ Address: %4
     </message>
     <message>
         <source>Error communicating with %1: %2</source>
-        <translation>%1: %2とコミ���ニケーション・エラーです</translation>
+        <translation>%1: %2とコミ�����ニケーション・エラーです</translation>
     </message>
     <message>
         <source>Payment request can not be parsed or processed!</source>
@@ -1354,8 +1354,8 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Enter a Auroracoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Auroracoin アドレスを入力します (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Auroracoin address (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
+        <translation>Auroracoin アドレスを入力します (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</translation>
     </message>
 </context>
 <context>
@@ -1899,8 +1899,8 @@ Address: %4
         <translation>送り先(&amp;T):</translation>
     </message>
     <message>
-        <source>The address to send the payment to (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>支払い送信するアドレス (例 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>The address to send the payment to (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
+        <translation>支払い送信するアドレス (例 AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
@@ -1989,8 +1989,8 @@ Address: %4
         <translation>あなた自身を立証するためにあなたのアドレスでメッセージに署名することができます。フィッシング攻撃によってあなたを騙して署名を譲渡させようとするかもしれないので、不明確なものは絶対に署名しないように注意してください。あなたが同意する完全に詳細な声明にだけ署名してください。</translation>
     </message>
     <message>
-        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>メッセージの署名に使うアドレス (例 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>The address to sign the message with (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
+        <translation>メッセージの署名に使うアドレス (例 AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2045,8 +2045,8 @@ Address: %4
         <translation>メッセージを検証するために、署名するアドレスとメッセージ(改行、スペース、タブなどを正確にコピーしてください)、そして署名を入力します。中間者攻撃によってだまされることを避けるために、署名されたメッセージそのものよりも、署名を読み取られないように注意してください。</translation>
     </message>
     <message>
-        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>メッセージが署名されたアドレス (例 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>The address the message was signed with (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
+        <translation>メッセージが署名されたアドレス (例 AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Auroracoin address</source>
@@ -2061,8 +2061,8 @@ Address: %4
         <translation>入力項目の内容をすべて消去します</translation>
     </message>
     <message>
-        <source>Enter a Auroracoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Auroracoin アドレスを入力します (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Auroracoin address (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
+        <translation>Auroracoin アドレスを入力します (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</translation>
     </message>
     <message>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
@@ -2707,7 +2707,7 @@ rpcpassword=%s
     </message>
     <message>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly. This is intended for regression testing tools and app development.</source>
-        <translation>ブロックを瞬時に解決することができる特別なチェーンを使用して、リグレッションテストモードに入る。これはリグレッションテストツールやアプリケーション開発を対象とし���います。</translation>
+        <translation>ブロックを瞬時に解決することができる特別なチェーンを使用して、リグレッションテストモードに入る。これはリグレッションテストツールやアプリケーション開発を対���とし���います。</translation>
     </message>
     <message>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
@@ -2892,7 +2892,7 @@ rpcpassword=%s
     </message>
     <message>
         <source>Failed to read block info</source>
-        <translation>ブロック情報の読み取りに失敗しま���た</translation>
+        <translation>ブロック情報の読み取り���失敗しま���た</translation>
     </message>
     <message>
         <source>Failed to read block</source>

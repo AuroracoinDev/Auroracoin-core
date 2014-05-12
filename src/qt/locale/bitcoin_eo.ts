@@ -1353,8 +1353,8 @@ Adreso: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Enter a Auroracoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Enigi Bitmon-adreson (ekz. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Auroracoin address (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
+        <translation>Enigi Bitmon-adreson (ekz. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</translation>
     </message>
 </context>
 <context>
@@ -1898,8 +1898,8 @@ Adreso: %4
         <translation>&amp;Ricevonto:</translation>
     </message>
     <message>
-        <source>The address to send the payment to (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>La adreso kie vi sendos la pagon (ekz. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>The address to send the payment to (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
+        <translation>La adreso kie vi sendos la pagon (ekz. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
@@ -1988,8 +1988,8 @@ Adreso: %4
         <translation>Vi povas subskribi mesaĝon per viaj adresoj, por pravigi ke vi estas la posedanto de tiuj adresoj. Atentu, ke vi ne subskriu ion neprecizan, ĉar trompisto povus ruzi kontraŭ vi kaj ŝteli vian identecon. Subskribu nur plene detaligitaj deklaroj pri kiuj vi konsentas.</translation>
     </message>
     <message>
-        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>La adreso por subskribi la mesaĝon (ekz. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>The address to sign the message with (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
+        <translation>La adreso por subskribi la mesaĝon (ekz. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2044,8 +2044,8 @@ Adreso: %4
         <translation>Enmeti la subskriban adreson, la mesaĝon (kune kun ĉiu linisalto, spaceto, taboj, ktp. precize) kaj la subskribon ĉi sube por kontroli la mesaĝon. Atentu, ke vi ne komprenu per la subskribo pli ol la enhavo de la mesaĝo mem, por eviti homo-en-la-mezo-atakon.</translation>
     </message>
     <message>
-        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>La adreso per kio oni subskribis la mesaĝon (ekz. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>The address the message was signed with (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
+        <translation>La adreso per kio oni subskribis la mesaĝon (ekz. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Auroracoin address</source>
@@ -2060,8 +2060,8 @@ Adreso: %4
         <translation>Reagordigi ĉiujn prikontrolajn kampojn</translation>
     </message>
     <message>
-        <source>Enter a Auroracoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Enigi Bitmon-adreson (ekz. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Auroracoin address (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
+        <translation>Enigi Bitmon-adreson (ekz. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</translation>
     </message>
     <message>
         <source>Click &quot;Sign Message&quot; to generate signature</source>

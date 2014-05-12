@@ -1354,8 +1354,8 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Enter a Auroracoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Εισάγετε μια διεύθυνση Auroracoin (π.χ. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Auroracoin address (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
+        <translation>Εισάγετε μια διεύθυνση Auroracoin (π.χ. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</translation>
     </message>
 </context>
 <context>
@@ -1757,7 +1757,7 @@ Address: %4
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
-        <translation>Αποστολή σε πολλούς αποδέκτ��ς ταυτόχρονα</translation>
+        <translation>Αποστολή σε πολλούς αποδέκτ����ς ταυτόχρονα</translation>
     </message>
     <message>
         <source>Add &amp;Recipient</source>
@@ -1899,8 +1899,8 @@ Address: %4
         <translation>Πληρωμή &amp;σε:</translation>
     </message>
     <message>
-        <source>The address to send the payment to (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Διεύθυνση αποστολής της πληρωμής  (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>The address to send the payment to (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
+        <translation>Διεύθυνση αποστολής της πληρωμής  (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
@@ -1989,8 +1989,8 @@ Address: %4
         <translation>Μπορείτε να υπογράφετε μηνύματα με τις διευθύνσεις σας, ώστε ν&apos; αποδεικνύετε πως αυτές σας ανήκουν. Αποφεύγετε να υπογράφετε κάτι αόριστο καθώς ενδέχεται να εξαπατηθείτε. Υπογράφετε μόνο πλήρης δηλώσεις με τις οποίες συμφωνείτε.</translation>
     </message>
     <message>
-        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Εισάγετε μια διεύθυνση Auroracoin (π.χ. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>The address to sign the message with (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
+        <translation>Εισάγετε μια διεύθυνση Auroracoin (π.χ. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2045,8 +2045,8 @@ Address: %4
         <translation>Πληκτρολογήστε την υπογραφή διεύθυνσης, μήνυμα (βεβαιωθείτε ότι έχετε αντιγράψει τις αλλαγές γραμμής, κενά, tabs, κ.λπ. ακριβώς) και την υπογραφή παρακάτω, για να ελέγξει το μήνυμα. Να είστε προσεκτικοί για να μην διαβάσετε περισσότερα στην υπογραφή ό, τι είναι στην υπογραφή ίδιο το μήνυμα , για να μην εξαπατηθούν από έναν άνθρωπο -in - the-middle επίθεση.</translation>
     </message>
     <message>
-        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Εισάγετε μια διεύθυνση Auroracoin (π.χ. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>The address the message was signed with (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
+        <translation>Εισάγετε μια διεύθυνση Auroracoin (π.χ. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Auroracoin address</source>
@@ -2061,8 +2061,8 @@ Address: %4
         <translation>Επαναφορά όλων επαλήθευμενων πεδίων μήνυματος </translation>
     </message>
     <message>
-        <source>Enter a Auroracoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Εισάγετε μια διεύθυνση Auroracoin (π.χ. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Auroracoin address (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
+        <translation>Εισάγετε μια διεύθυνση Auroracoin (π.χ. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</translation>
     </message>
     <message>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
@@ -2721,7 +2721,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Auroracoin Alert&quot; admin@f
     <message>
         <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
         <translation>Σφάλμα: Η συναλλαγή απορρίφθηκε.
-Αυτό ίσως οφείλεται στο ότι τα νομίσματά σας έχουν ήδη ξοδευτεί, π.χ. με την αντιγραφή του wallet.dat σε άλλο σύστημα και την χρήση τους εκεί, χωρίς η συναλλαγή να έχει καταγραφεί στο παρόν σύστημα.</translation>
+Αυτό ίσως οφείλεται στο ότι τα νομίσματά σας έχουν ήδη ξοδευτεί, π.χ. με την αντιγραφή του wallet.dat σε άλλο σύστημα και την χρήση τους εκεί, χωρί�� η συναλλαγή να έχει καταγραφεί στο παρόν σύστημα.</translation>
     </message>
     <message>
         <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
