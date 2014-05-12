@@ -1,4 +1,4 @@
-Bitcoin 0.9.99 BETA
+Auroracoin 0.9.99 BETA
 =====================
 
 Copyright (c) 2009-2014 Bitcoin Developers
@@ -6,43 +6,43 @@ Copyright (c) 2009-2014 Bitcoin Developers
 
 Setup
 ---------------------
-[Bitcoin Core](http://bitcoin.org/en/download) is the original Bitcoin client and it builds the backbone of the network. However, it downloads and stores the entire history of Bitcoin transactions (which is currently several GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once. If you would like the process to go faster you can [download the blockchain directly](bootstrap.md).
+[Auroracoin Core](http://auroracoin.com/en/download) is the original Auroracoin client and it builds the backbone of the network. However, it downloads and stores the entire history of Auroracoin transactions (which is currently several GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
-The following are some helpful notes on how to run Bitcoin on your native platform. 
+The following are some helpful notes on how to run Auroracoin on your native platform. 
 
 ### Unix
 
-You need the Qt4 run-time libraries to run Bitcoin-Qt. On Debian or Ubuntu:
+You need the Qt4 run-time libraries to run Auroracoin-Qt. On Debian or Ubuntu:
 
 	sudo apt-get install libqtgui4
 
 Unpack the files into a directory and run:
 
-- bin/32/bitcoin-qt (GUI, 32-bit) or bin/32/bitcoind (headless, 32-bit)
-- bin/64/bitcoin-qt (GUI, 64-bit) or bin/64/bitcoind (headless, 64-bit)
+- bin/32/auroracoin-qt (GUI, 32-bit) or bin/32/auroracoind (headless, 32-bit)
+- bin/64/auroracoin-qt (GUI, 64-bit) or bin/64/auroracoind (headless, 64-bit)
 
 
 
 ### Windows
 
-Unpack the files into a directory, and then run bitcoin-qt.exe.
+Unpack the files into a directory, and then run auroracoin-qt.exe.
 
 ### OSX
 
-Drag Bitcoin-Qt to your applications folder, and then run Bitcoin-Qt.
+Drag Auroracoin-Qt to your applications folder, and then run Auroracoin-Qt.
 
 ### Need Help?
 
 * See the documentation at the [Bitcoin Wiki](https://en.bitcoin.it/wiki/Main_Page)
 for help and more information.
-* Ask for help on [#bitcoin](http://webchat.freenode.net?channels=bitcoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=bitcoin).
-* Ask for help on the [BitcoinTalk](https://bitcointalk.org/) forums, in the [Technical Support board](https://bitcointalk.org/index.php?board=4.0).
+* Ask for help on [#aur](http://webchat.freenode.net?channels=aur) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=aur).
+* Ask for help on the [Auroracoin](http://forum.auroracoin.org/) forums, in the [Technical Support board](http://forum.auroracoin.org/viewforum.php?f=23).
 
 Building
 ---------------------
-The following are developer notes on how to build Bitcoin on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build Auroracoin on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OSX Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -50,7 +50,7 @@ The following are developer notes on how to build Bitcoin on your native platfor
 
 Development
 ---------------------
-The Bitcoin repo's [root README](https://github.com/bitcoin/bitcoin/blob/master/README.md) contains relevant information on the development process and automated testing.
+The Auroracoin repo's [root README](https://github.com/auroracoin/auroracoin/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Coding Guidelines](coding.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -61,8 +61,8 @@ The Bitcoin repo's [root README](https://github.com/bitcoin/bitcoin/blob/master/
 - [Unit Tests](unit-tests.md)
 
 ### Resources
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/) forums, in the [Development & Technical Discussion board](https://bitcointalk.org/index.php?board=6.0).
-* Discuss on [#bitcoin-dev](http://webchat.freenode.net/?channels=bitcoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=bitcoin-dev).
+* Discuss on the [Auroracoin](http://forum.auroracoin.org/) forums, in the [Core development board](http://forum.auroracoin.org/viewforum.php?f=10).
+* Discuss on [#aur-dev](http://webchat.freenode.net/?channels=aur-dev) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=aur-dev).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

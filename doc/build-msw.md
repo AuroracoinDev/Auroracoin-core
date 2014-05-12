@@ -72,12 +72,12 @@ MSYS shell:
 	mkdir miniupnpc
 	cp *.h miniupnpc/
 
-Bitcoin
+Auroracoin
 -------
 MSYS shell:
 
-	cd \bitcoin
+	cd \auroracoin
 	sh autogen.sh
 	sh configure
 	mingw32-make
-	strip bitcoind.exe
+	strip auroracoind.exe
