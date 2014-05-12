@@ -27,7 +27,7 @@ SignVerifyMessageDialog::SignVerifyMessageDialog(QWidget *parent) :
 
 #if QT_VERSION >= 0x040700
     ui->signatureOut_SM->setPlaceholderText(tr("Click \"Sign Message\" to generate signature"));
-    ui->addressIn_VM->setPlaceholderText(tr("Enter a Auroracoin address (e.g. Aer4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)"));
+    ui->addressIn_VM->setPlaceholderText(tr("Enter a Auroracoin address (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)"));
 #endif
 
     GUIUtil::setupAddressWidget(ui->addressIn_SM, this);

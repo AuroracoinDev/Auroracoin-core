@@ -86,7 +86,7 @@ void setupAddressWidget(QValidatedLineEdit *widget, QWidget *parent)
 
     widget->setFont(bitcoinAddressFont());
 #if QT_VERSION >= 0x040700
-    widget->setPlaceholderText(QObject::tr("Enter a Auroracoin address (e.g. Aer4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)"));
+    widget->setPlaceholderText(QObject::tr("Enter a Auroracoin address (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)"));
 #endif
     widget->setValidator(new BitcoinAddressEntryValidator(parent));
     widget->setCheckValidator(new BitcoinAddressCheckValidator(parent));
@@ -166,7 +166,7 @@ bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
     //    which will lower-case it (and thus invalidate the address).
     if(uri.startsWith("auroracoin://", Qt::CaseInsensitive))
     {
-        uri.replace(0, 10, "auroracoin:");
+        uri.replace(0, 13, "auroracoin:");
     }
     QUrl uriInstance(uri);
     return parseBitcoinURI(uriInstance, out);
