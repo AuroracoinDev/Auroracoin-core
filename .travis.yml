@@ -3,18 +3,19 @@ cache: apt
 compiler:
   - gcc
 before_install:
+  - sudo add-apt-repository ppa:bitcoin/bitcoin
   - sudo apt-get update -qq
   - sudo apt-get install build-essential libtool autotools-dev autoconf libssl-dev pkg-config ccache
   - sudo apt-get install libboost1.48-dev libboost-chrono1.48-dev libboost-filesystem1.48-dev libboost-program-options1.48-dev libboost-system1.48-dev libboost-test1.48-dev libboost-thread1.48-dev
-  - sudo apt-get install libdb++-dev
-  - sudo apt-get install libqt4-dev
+  - sudo apt-get install libdb4.8++-dev libdb4.8-dev
+  - sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools
   - sudo apt-get install libprotobuf-dev protobuf-compiler
   - mkdir $HOME/.ccache
   - export CCACHE_DIR=$HOME/.ccache
   - ccache -M 1G
 script:
   - ./autogen.sh
-  - CFLAGS="-O1" CXXFLAGS="-O1" ./configure
+  - CFLAGS="-O1" CXXFLAGS="-O1" ./configure --with-gui=qt5
   - make -j 2
   - make check
   - make clean
