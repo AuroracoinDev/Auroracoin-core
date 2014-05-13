@@ -2605,8 +2605,8 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation>Luister vir konneksies op &lt;port&gt; (standaard: 8333 of testnet: 18333)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 12340 or testnet: 19117)</source>
+        <translation>Luister vir konneksies op &lt;port&gt; (standaard: 12340 of testnet: 19117)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
@@ -2633,7 +2633,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 12341 or testnet: 19118)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2807,7 +2807,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Auroracoin Alert&quot; admin@f
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 12341 or testnet: 19118)</source>
         <translation type="unfinished"/>
     </message>
     <message>

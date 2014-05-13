@@ -826,7 +826,7 @@ Address: %4
     </message>
     <message>
         <source>New receiving address</source>
-        <translation>ახალი მიღების მისამართ�����</translation>
+        <translation>ახალი მიღების მისამართ�������������</translation>
     </message>
     <message>
         <source>New sending address</source>
@@ -1197,7 +1197,7 @@ Address: %4
     </message>
     <message>
         <source>This change would require a client restart.</source>
-        <translation>ამ ცვლილებების ძალაში შესასვლელად საჭიროა კლიენტის დახურვა და ხელახალი გაშვება.</translation>
+        <translation>ამ ცვლილებების ძალაში შესასვლელად საჭიროა კლიენტის დახურვა და ხელახალი გაშ���ე���ა.</translation>
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
@@ -1392,7 +1392,7 @@ Address: %4
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>&amp;ინ������რმაცია</translation>
+        <translation>&amp;���ნ������რმაცია</translation>
     </message>
     <message>
         <source>Debug window</source>
@@ -1848,7 +1848,7 @@ Address: %4
     </message>
     <message>
         <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation>მისამართები დუბლირებულია, დაშვებულია ერთ ჯერზე თითო მისამართზე ერთხელ გაგზავნა.</translation>
+        <translation>მისამართები დუბლირებულია, დაშვებულია ერთ ჯ���რ���ე თი���ო მისამართზე ერთხელ გაგზავნა.</translation>
     </message>
     <message>
         <source>Transaction creation failed!</source>
@@ -2467,7 +2467,7 @@ Address: %4
     </message>
     <message>
         <source>Edit label</source>
-        <translation>ნიშნულის რ���და���ტირება</translation>
+        <translation>ნიშნუ���ის რ���და���ტირება</translation>
     </message>
     <message>
         <source>Show transaction details</source>
@@ -2614,8 +2614,8 @@ Address: %4
         <translation>მიუთითეთ მონაცემთა კატალოგი</translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation>მიყურადება პორტზე &lt;port&gt; (ნაგულისხმევი: 8333 ან სატესტო ქსელში: 18333)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 12340 or testnet: 19117)</source>
+        <translation>მიყურადება პორტზე &lt;port&gt; (ნაგულისხმევი: 12340 ან სატესტო ქსელში: 19117)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
@@ -2642,8 +2642,8 @@ Address: %4
         <translation>შეცდომა %u RPC-პორტის მიყურადების ჩართვისას IPv4 მისამართზე: %s</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation> JSON-RPC-შეერთებების მიყურადება პორტზე &lt;port&gt; (ნაგულისხმევი: 8332 ან სატესტო ქსელში: 18332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 12341 or testnet: 19118)</source>
+        <translation> JSON-RPC-შეერთებების მიყურადება პორტზე &lt;port&gt; (ნაგულისხმევი: 12341 ან სატესტო ქსელში: 19118)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -2677,7 +2677,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s &quot;Auroracoin Alert&quot; admin@foo.com
 </source>
-        <translation>%s, მიუთითეთ rpcpassword საკონფიგურაციო ფაილში:
+        <translation>%s, მიუთითეთ rpcpassword საკონფიგურ���ციო ფაილ���ი:
 %s
 რე���ომენ���ებულია შემდეგი შემთხვევითი პაროლი:
 rpcuser=auroracoinrpc
@@ -2826,8 +2826,8 @@ rpcpassword=%s
         <translation>შეერთება SOCKS-პროქსით</translation>
     </message>
     <message>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation> JSON-RPC-შეერთება პორტზე &lt;port&gt; (ნაგულისხმევი: 8332 ან სატესტო ქსელში: 18332)</translation>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 12341 or testnet: 19118)</source>
+        <translation> JSON-RPC-შეერთება პორტზე &lt;port&gt; (ნაგულისხმევი: 12341 ან სატესტო ქსელში: 19118)</translation>
     </message>
     <message>
         <source>Connection options:</source>
@@ -2963,7 +2963,7 @@ rpcpassword=%s
     </message>
     <message>
         <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
-        <translation>საწყისი ბლოკი არ არსებობს ან არასწორია. ქ���ელის მონაცემთა კატალოგი datadir ხომ არის არასწორი?</translation>
+        <translation>საწყისი ბლოკ��� არ არსებო���ს ან არასწორია. ქ���ელის მონაცემთა კატალოგი datadir ხომ არის არასწორი?</translation>
     </message>
     <message>
         <source>Invalid -onion address: &apos;%s&apos;</source>
@@ -3299,7 +3299,7 @@ rpcpassword=%s
     </message>
     <message>
         <source>Error loading wallet.dat</source>
-        <translation>არ იტვირთება wallet.dat</translation>
+        <translation>არ იტვირ���ება wallet.dat</translation>
     </message>
     <message>
         <source>Invalid -proxy address: &apos;%s&apos;</source>

@@ -846,7 +846,7 @@ Address: %4
     </message>
     <message>
         <source>The entered address &quot;%1&quot; is not a valid Auroracoin address.</source>
-        <translation>���력한 &quot;%1&quot; 주소는 올바른 비트코인 주소가 아닙니다.</translation>
+        <translation>�����������력한 &quot;%1&quot; 주소는 올바른 비트코인 주소가 아닙니다.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -2614,8 +2614,8 @@ Address: %4
         <translation>데이터 폴더 지정</translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation>&lt;port&gt;로 연결을 허용한다 (기본값: 8333 또는 테스트넷: 18333)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 12340 or testnet: 19117)</source>
+        <translation>&lt;port&gt;로 연결을 허용한다 (기본값: 12340 또는 테스트넷: 19117)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
@@ -2642,7 +2642,7 @@ Address: %4
         <translation>IPv4 감청을 위한 RPC 포트 %u번을 설정중 오류가 발생했습니다: %s</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 12341 or testnet: 19118)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2816,8 +2816,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Auroracoin Alert&quot; admin@f
         <translation>SOCKS 프록시를 통해 연결</translation>
     </message>
     <message>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>JSON-RPC에 연결 &lt;포트&gt;(기본값:8332 또는 테스트넷: 18332)</translation>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 12341 or testnet: 19118)</source>
+        <translation>JSON-RPC에 연결 &lt;포트&gt;(기본값:12341 또는 테스트넷: 19118)</translation>
     </message>
     <message>
         <source>Connection options:</source>

@@ -17,10 +17,10 @@ from binascii import b2a_hex
 # key types
 PUBKEY_ADDRESS = 23
 SCRIPT_ADDRESS = 5
-PUBKEY_ADDRESS_TEST = 111
+PUBKEY_ADDRESS_TEST = 65
 SCRIPT_ADDRESS_TEST = 196
 PRIVKEY = 151
-PRIVKEY_TEST = 239
+PRIVKEY_TEST = 193
 
 metadata_keys = ['isPrivkey', 'isTestnet', 'addrType', 'isCompressed']
 # templates for valid sequences

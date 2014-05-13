@@ -1,5 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
+// Copyright (c) 2011-2013 The Litecoin developers
+// Copyright (c) 2013-2014 The Auroracoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -15,6 +17,7 @@
 #include "core.h"
 #include "net.h"
 #include "script.h"
+#include "scrypt.h"
 #include "sync.h"
 #include "txmempool.h"
 #include "uint256.h"
@@ -54,7 +57,7 @@ static const unsigned int BLOCKFILE_CHUNK_SIZE = 0x1000000; // 16 MiB
 /** The pre-allocation chunk size for rev?????.dat files (since 0.8) */
 static const unsigned int UNDOFILE_CHUNK_SIZE = 0x100000; // 1 MiB
 /** Coinbase transaction outputs can only be spent after this number of new blocks (network rule) */
-static const int COINBASE_MATURITY = 100;
+static const int COINBASE_MATURITY = 80;
 /** Threshold for nLockTime: below this value it is interpreted as block number, otherwise as UNIX timestamp. */
 static const unsigned int LOCKTIME_THRESHOLD = 500000000; // Tue Nov  5 00:53:20 1985 UTC
 /** Maximum number of script-checking threads allowed */
@@ -830,10 +833,12 @@ public:
 
     bool CheckIndex() const
     {
-        return CheckProofOfWork(GetBlockHash(), nBits);
+        /** Scrypt is used for block proof-of-work, but for purposes of performance the index internally uses sha256.
+         *  This check was considered unneccessary given the other safeguards like the genesis and checkpoints. */
+        return true; // return CheckProofOfWork(GetBlockHash(), nBits);
     }
-
-    enum { nMedianTimeSpan=11 };
+    // Auroracoin: limit timestamp window
+    enum { nKGWMedianTimeSpan=3, nMedianTimeSpan=11 };
 
     int64_t GetMedianTimePast() const
     {
@@ -842,7 +847,8 @@ public:
         int64_t* pend = &pmedian[nMedianTimeSpan];
 
         const CBlockIndex* pindex = this;
-        for (int i = 0; i < nMedianTimeSpan && pindex; i++, pindex = pindex->pprev)
+        int span = ((pindex->nHeight > 5400) ? nKGWMedianTimeSpan : nMedianTimeSpan);
+        for (int i = 0; i < span && pindex; i++, pindex = pindex->pprev)
             *(--pbegin) = pindex->GetBlockTime();
 
         std::sort(pbegin, pend);

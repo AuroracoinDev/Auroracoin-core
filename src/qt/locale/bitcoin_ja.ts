@@ -1312,7 +1312,7 @@ Address: %4
     </message>
     <message>
         <source>Error communicating with %1: %2</source>
-        <translation>%1: %2とコミ�����ニケーション・エラーです</translation>
+        <translation>%1: %2とコミ�������������ニケーション・エラーです</translation>
     </message>
     <message>
         <source>Payment request can not be parsed or processed!</source>
@@ -2615,8 +2615,8 @@ Address: %4
         <translation>データ ディレクトリの指定</translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation>接続のポート番号 (初期値: 8333、testnet: 18333)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 12340 or testnet: 19117)</source>
+        <translation>接続のポート番号 (初期値: 12340、testnet: 19117)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
@@ -2643,8 +2643,8 @@ Address: %4
         <translation>IPv4 でリスンする RPC ポート %u の設定中にエラーが発生しました: %s</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>&lt;port&gt; で JSON-RPC 接続をリスン (初期値: 8332、testnet は 18332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 12341 or testnet: 19118)</source>
+        <translation>&lt;port&gt; で JSON-RPC 接続をリスン (初期値: 12341、testnet は 19118)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -2707,7 +2707,7 @@ rpcpassword=%s
     </message>
     <message>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly. This is intended for regression testing tools and app development.</source>
-        <translation>ブロックを瞬時に解決することができる特別なチェーンを使用して、リグレッションテストモードに入る。これはリグレッションテストツールやアプリケーション開発を対���とし���います。</translation>
+        <translation>ブロックを瞬時に解決することができる特別なチェーンを使用して、リグレッションテストモードに入る。これはリグレッションテストツールやアプリケーション���発���対���とし���います。</translation>
     </message>
     <message>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
@@ -2826,7 +2826,7 @@ rpcpassword=%s
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 12341 or testnet: 19118)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2892,7 +2892,7 @@ rpcpassword=%s
     </message>
     <message>
         <source>Failed to read block info</source>
-        <translation>ブロック情報の読み取り���失敗しま���た</translation>
+        <translation>ブロッ���情報の���み取り���失敗しま���た</translation>
     </message>
     <message>
         <source>Failed to read block</source>

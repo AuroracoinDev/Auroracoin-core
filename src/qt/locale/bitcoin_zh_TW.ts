@@ -1091,7 +1091,7 @@ Address: %4
     </message>
     <message>
         <source>Automatically open the Auroracoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>自動在路由�����上開放位元幣的客戶端通訊埠。只有在你的路由器支援且開啓「通用即插即用���協定(UPnP)時���有作用。</translation>
+        <translation>自動在路由�������������上開放位元幣的客戶端通訊埠。只有在你的路由器支援且開啓「通用即插即用���協定(UPnP)時���有作用。</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -2616,8 +2616,8 @@ Address: %4
         <translation>指定資料目錄</translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation>在通訊埠 &lt;port&gt; 聽候連線(預設值: 8333, 或若是測試網路: 18333)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 12340 or testnet: 19117)</source>
+        <translation>在通訊埠 &lt;port&gt; 聽候連線(預設值: 12340, 或若是測試網路: 19117)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
@@ -2644,8 +2644,8 @@ Address: %4
         <translation>設定在 IPv4 網路上以通訊埠 %u 聽取 RPC 連線時發生錯誤: %s</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>在通訊埠 &lt;port&gt; 聽候 JSON-RPC 連線(預設值: 8332, 或若是測試網路: 18332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 12341 or testnet: 19118)</source>
+        <translation>在通訊埠 &lt;port&gt; 聽候 JSON-RPC 連線(預設值: 12341, 或若是測試網路: 19118)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -2722,7 +2722,7 @@ alertnotify=echo %%s | mail -s &quot;Auroracoin Alert&quot; admin@foo.com</trans
     </message>
     <message>
         <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>錯誤: 交易被拒絕了！有時候會發������種錯誤，是因為你錢包中的一些錢已經被花掉了。比如說你複製了錢包檔 wallet.dat, 然後用複製的錢包花掉了錢，你現在所用的原來���錢包中，卻沒有那筆錢已經花掉的紀錄���</translation>
+        <translation>錯誤: 交易被拒絕了！有���候���發������種錯誤，是因為你錢包中的一些錢已經被花掉了。比如說你複製了錢包檔 wallet.dat, 然後用複製的錢包花掉了錢，你現在所用的原來���錢包中，卻沒有那筆錢已經花掉的紀錄���</translation>
     </message>
     <message>
         <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
@@ -2829,8 +2829,8 @@ alertnotify=echo %%s | mail -s &quot;Auroracoin Alert&quot; admin@foo.com</trans
         <translation>透過 SOCKS 代理伺服器來連線</translation>
     </message>
     <message>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>連線到埠號 &lt;port&gt; 上的 JSON-RPC 伺服器(預設值: 8332，或若是測試網路: 18332)</translation>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 12341 or testnet: 19118)</source>
+        <translation>連線到埠號 &lt;port&gt; 上的 JSON-RPC 伺服器(預設值: 12341，或若是測試網路: 19118)</translation>
     </message>
     <message>
         <source>Connection options:</source>
@@ -3110,7 +3110,7 @@ alertnotify=echo %%s | mail -s &quot;Auroracoin Alert&quot; admin@foo.com</trans
     </message>
     <message>
         <source>Print block on startup, if found in block index</source>
-        <translation>啟動時輸出指定的區塊內容，如果有在區塊索引中找到的話</translation>
+        <translation>啟動時輸出指定的區塊內容，如果���在���塊索引中找到的話</translation>
     </message>
     <message>
         <source>Print block tree on startup (default: 0)</source>
@@ -3338,7 +3338,7 @@ alertnotify=echo %%s | mail -s &quot;Auroracoin Alert&quot; admin@foo.com</trans
     </message>
     <message>
         <source>Loading block index...</source>
-        <translation>正在載入區塊索引...</translation>
+        <translation>正���載入區���索引...</translation>
     </message>
     <message>
         <source>Add a node to connect to and attempt to keep the connection open</source>

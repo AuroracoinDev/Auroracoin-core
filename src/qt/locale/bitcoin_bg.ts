@@ -834,7 +834,7 @@ Address: %4
     </message>
     <message>
         <source>Edit sending address</source>
-        <translation>Редактиране н�� изходящ адрес</translation>
+        <translation>Редактиране н���������� изходящ адрес</translation>
     </message>
     <message>
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
@@ -1117,7 +1117,7 @@ Address: %4
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>След минимизиране ще е видима само иконата в сист��мния трей.</translation>
+        <translation>След минимизиране ще е видима само ик��на��а в си��т��мния трей.</translation>
     </message>
     <message>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
@@ -2610,7 +2610,7 @@ Address: %4
         <translation>Определете директория за данните</translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
+        <source>Listen for connections on &lt;port&gt; (default: 12340 or testnet: 19117)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2638,7 +2638,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 12341 or testnet: 19118)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2812,7 +2812,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Auroracoin Alert&quot; admin@f
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 12341 or testnet: 19118)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3321,7 +3321,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Auroracoin Alert&quot; admin@f
     </message>
     <message>
         <source>Loading block index...</source>
-        <translation>Зареждане на блок индекса...</translation>
+        <translation>Зареждане на бл��к и��декс��...</translation>
     </message>
     <message>
         <source>Add a node to connect to and attempt to keep the connection open</source>

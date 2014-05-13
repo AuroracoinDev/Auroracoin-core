@@ -1271,7 +1271,7 @@ Adres: %4
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
-        <translation>Talep edilen %1 meblağında ödeme çok d��şüktür (toz olarak kabul edilir).</translation>
+        <translation>Talep edilen %1 meblağında ödeme çok d����������şüktür (toz olarak kabul edilir).</translation>
     </message>
     <message>
         <source>Payment request error</source>
@@ -2614,8 +2614,8 @@ Adres: %4
         <translation>Veri dizinini belirt</translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation>Bağlantılar için dinlenecek &lt;port&gt; (varsayılan: 8333 ya da testnet: 18333)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 12340 or testnet: 19117)</source>
+        <translation>Bağlantılar için dinlenecek &lt;port&gt; (varsayılan: 12340 ya da testnet: 19117)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
@@ -2642,8 +2642,8 @@ Adres: %4
         <translation>IPv4 üzerinde dinlemek için %u numaralı RPC portunun kurulumu sırasında hata meydana geldi: %s</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>JSON-RPC bağlantılarını &lt;port&gt; üzerinde dinle (varsayılan: 8332 veya tesnet: 18332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 12341 or testnet: 19118)</source>
+        <translation>JSON-RPC bağlantılarını &lt;port&gt; üzerinde dinle (varsayılan: 12341 veya tesnet: 19118)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -2826,8 +2826,8 @@ mesela: alertnotify=echo %%s | mail -s &quot;Auroracoin Alert&quot; admin@foo.co
         <translation>SOCKS vekil sunucusuyla bağlan</translation>
     </message>
     <message>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>&lt;port&gt; numarasında JSON-RPC&apos;ye bağlan (varsayılan: 8332 veya testnet: 18332)</translation>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 12341 or testnet: 19118)</source>
+        <translation>&lt;port&gt; numarasında JSON-RPC&apos;ye bağlan (varsayılan: 12341 veya testnet: 19118)</translation>
     </message>
     <message>
         <source>Connection options:</source>

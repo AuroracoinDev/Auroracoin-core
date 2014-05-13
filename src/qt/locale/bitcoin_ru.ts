@@ -433,7 +433,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>Request payments (generates QR codes and auroracoin: URIs)</source>
-        <translation>Запросить платежи (с��здаёт QR-коды и auroracoin: ссылки)</translation>
+        <translation>Запросить платежи (с����������здаёт QR-коды и auroracoin: ссылки)</translation>
     </message>
     <message>
         <source>&amp;About Auroracoin Core</source>
@@ -1848,7 +1848,7 @@ Address: %4
     </message>
     <message>
         <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation>Обнаружен дублирующийся адрес. Отправка на один и тот же адрес возможна только один раз за одну операцию отправки</translation>
+        <translation>Обнаружен дублирующийся адрес. Отправка н�� один и тот же адрес возможна только один раз за одну операцию отправки</translation>
     </message>
     <message>
         <source>Transaction creation failed!</source>
@@ -2041,7 +2041,7 @@ Address: %4
     </message>
     <message>
         <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
-        <translation>Введите ниже адрес для подписи, сообщение (убедитесь, что переводы строк, пробелы, табы и т.п. в точности скопированы) и подпись, чтобы проверить сообщение. Убедитесь, что не скопировали лишнего в подпись, по сравнению с самим подпис��ваемым сообще��ием, чтобы не стать жертвой атаки &quot;man-in-the-middle&quot;.</translation>
+        <translation>Введите ниже адрес для подписи, сообщение (убедитесь, что переводы строк, ��ро��ел��, таб�� и т.п. в точности скопированы) и подпись, чтобы проверить сообщение. Убедитесь, что не скопировали лишнего в подпись, по сравнению с самим подпис��ваемым сообще��ием, чтобы не стать жертвой атаки &quot;man-in-the-middle&quot;.</translation>
     </message>
     <message>
         <source>The address the message was signed with (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
@@ -2615,8 +2615,8 @@ Address: %4
         <translation>Задать каталог данных</translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation>Принимать входящие подключения на &lt;port&gt; (по умолчанию: 8333 или 18333 в тестовой сети)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 12340 or testnet: 19117)</source>
+        <translation>Принимать входящие подключения на &lt;port&gt; (по умолчанию: 12340 или 19117 в тестовой сети)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
@@ -2643,8 +2643,8 @@ Address: %4
         <translation>Произошла ошибка при открытии RPC-порта %u для прослушивания на IPv4: %s</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Прослушивать подключения JSON-RPC на &lt;порту&gt; (по умолчанию: 8332 или для testnet: 18332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 12341 or testnet: 19118)</source>
+        <translation>Прослушивать подключения JSON-RPC на &lt;порту&gt; (по умолчанию: 12341 или для testnet: 19118)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -2827,8 +2827,8 @@ rpcpassword=%s
         <translation>Подключаться через SOCKS прокси</translation>
     </message>
     <message>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Подключаться к JSON-RPC на &lt;порт&gt; (по умолчанию: 8332 или testnet: 18332)</translation>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 12341 or testnet: 19118)</source>
+        <translation>Подключаться к JSON-RPC на &lt;порт&gt; (по умолчанию: 12341 или testnet: 19118)</translation>
     </message>
     <message>
         <source>Connection options:</source>
@@ -3201,7 +3201,7 @@ rpcpassword=%s
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation>Использовать UPnP для проброса порта (по умолчанию: 1, ��сли используется прослушивание)</translation>
+        <translation>Использовать UPnP для проброса по��та (по умолчанию: 1, ��сли используется прослушивание)</translation>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>

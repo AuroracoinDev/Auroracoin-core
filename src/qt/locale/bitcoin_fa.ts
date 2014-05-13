@@ -1262,7 +1262,7 @@ Address: %4
     </message>
     <message>
         <source>URI can not be parsed! This can be caused by an invalid Auroracoin address or malformed URI parameters.</source>
-        <translation>نشانی اینترنتی قابل تجزیه و تحلیل نیست! دل����ل این وضعیت ممکن است یک نشانی نامعتبر بیت‌کوین و یا پارامترها�� ناه��جار در URI بوده باشد.</translation>
+        <translation>نشانی اینترنتی قابل تجزیه و تحلیل نیست! دل������������ل این وضعیت ممکن است یک نشانی نامعتبر بیت‌کوین و یا پارامترها�� ناه��جار در URI بوده باشد.</translation>
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
@@ -2609,8 +2609,8 @@ Address: %4
         <translation>مشخص کردن دایرکتوری داده‌ها</translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation>پذیرش اتصالات روی پورت &lt;port&gt; (پیش‌فرض: 8833 یا شبکهٔ آزمایشی: 18333)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 12340 or testnet: 19117)</source>
+        <translation>پذیرش اتصالات روی پورت &lt;port&gt; (پیش‌فرض: 8833 یا شبکهٔ آزمایشی: 19117)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
@@ -2637,8 +2637,8 @@ Address: %4
         <translation>هنگام تنظیم پورت RPC %u برای گوش دادن روی IPv4 خطایی رخ داده است: %s</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>پورت مورد شنود برای اتصالات JSON-RPC (پیش‌فرض: 8332 برای شبکهٔ تست 18332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 12341 or testnet: 19118)</source>
+        <translation>پورت مورد شنود برای اتصالات JSON-RPC (پیش‌فرض: 12341 برای شبکهٔ تست 19118)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -2811,7 +2811,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Auroracoin Alert&quot; admin@f
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 12341 or testnet: 19118)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3308,7 +3308,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Auroracoin Alert&quot; admin@f
     </message>
     <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>میزان وجه اشتباه برای paytxfee=&lt;میزان وجه&gt;: %s</translation>
+        <translation>میزان وجه اشتباه برای paytxfee=&lt;م��زا�� وج��&gt;: %s</translation>
     </message>
     <message>
         <source>Invalid amount</source>

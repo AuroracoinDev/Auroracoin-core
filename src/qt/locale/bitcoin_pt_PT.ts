@@ -2613,8 +2613,8 @@ Endereço: %4</translation>
         <translation>Especificar pasta de dados</translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation>Escute ligações na porta &lt;n&gt; (por defeito: 8333 ou testnet: 18333)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 12340 or testnet: 19117)</source>
+        <translation>Escute ligações na porta &lt;n&gt; (por defeito: 12340 ou testnet: 19117)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
@@ -2641,8 +2641,8 @@ Endereço: %4</translation>
         <translation>Ocorreu um erro ao definir a porta %u do serviço RPC a escutar em IPv4: %s</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Escutar por ligações JSON-RPC na porta &lt;n&gt; (por defeito: 8332 ou rede de testes: 18332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 12341 or testnet: 19118)</source>
+        <translation>Escutar por ligações JSON-RPC na porta &lt;n&gt; (por defeito: 12341 ou rede de testes: 19118)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -2824,8 +2824,8 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Alerta Auroracoin&quot; admin@
         <translation>Ligar através de proxy SOCKS:</translation>
     </message>
     <message>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Ligar ao JSON-RPC na porta &lt;n&gt; (por defeito: 8332 ou rede de testes: 18332)</translation>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 12341 or testnet: 19118)</source>
+        <translation>Ligar ao JSON-RPC na porta &lt;n&gt; (por defeito: 12341 ou rede de testes: 19118)</translation>
     </message>
     <message>
         <source>Connection options:</source>

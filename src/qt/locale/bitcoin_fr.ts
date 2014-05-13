@@ -2572,7 +2572,7 @@ Adresse : %4
     </message>
     <message>
         <source>There was an error trying to save the wallet data to %1.</source>
-        <translation>Une erreur est survenue lors de l&apos;enregistrement des donn����es de portefeuille vers %1.</translation>
+        <translation>Une erreur est survenue lors de l&apos;enregistrement des donn������������es de portefeuille vers %1.</translation>
     </message>
     <message>
         <source>The wallet data was successfully saved to %1.</source>
@@ -2614,8 +2614,8 @@ Adresse : %4
         <translation>Spécifier le répertoire de données</translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation>Écouter les connexions sur le &lt;port&gt; (par défaut : 8333 ou testnet : 18333)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 12340 or testnet: 19117)</source>
+        <translation>Écouter les connexions sur le &lt;port&gt; (par défaut : 12340 ou testnet : 19117)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
@@ -2642,8 +2642,8 @@ Adresse : %4
         <translation>Une erreur est survenue lors du réglage du port RPC %u pour écouter sur IPv4 : %s</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Écouter les connexions JSON-RPC sur le &lt;port&gt; (par défaut : 8332 ou tesnet : 18332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 12341 or testnet: 19118)</source>
+        <translation>Écouter les connexions JSON-RPC sur le &lt;port&gt; (par défaut : 12341 ou tesnet : 19118)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -2826,8 +2826,8 @@ par exemple : alertnotify=echo %%s | mail -s &quot;Alerte Auroracoin&quot; admin
         <translation>Connexion à travers un serveur mandataire SOCKS</translation>
     </message>
     <message>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Se connecter à JSON-RPC sur le &lt;port&gt; (par défaut : 8332 ou testnet : 18332)</translation>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 12341 or testnet: 19118)</source>
+        <translation>Se connecter à JSON-RPC sur le &lt;port&gt; (par défaut : 12341 ou testnet : 19118)</translation>
     </message>
     <message>
         <source>Connection options:</source>

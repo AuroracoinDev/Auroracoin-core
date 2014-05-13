@@ -2615,8 +2615,8 @@ Indirizzo: %4
         <translation>Specifica la cartella dati</translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation>Attendi le connessioni su &lt;porta&gt; (predefinita: 8333 o testnet: 18333)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 12340 or testnet: 19117)</source>
+        <translation>Attendi le connessioni su &lt;porta&gt; (predefinita: 12340 o testnet: 19117)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
@@ -2643,8 +2643,8 @@ Indirizzo: %4
         <translation>Errore riscontrato durante l&apos;impostazione della porta RPC %u per l&apos;ascolto su IPv4: %s</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Attendi le connessioni JSON-RPC su &lt;porta&gt; (predefinita: 8332 or testnet: 18332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 12341 or testnet: 19118)</source>
+        <translation>Attendi le connessioni JSON-RPC su &lt;porta&gt; (predefinita: 12341 or testnet: 19118)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -2827,8 +2827,8 @@ ad esempio: alertnotify=echo %%s | mail -s &quot;Allarme Auroracoin&quot; admin@
         <translation>Connetti attraverso SOCKS proxy</translation>
     </message>
     <message>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Connetti al JSON-RPC su &lt;port&gt; (predefinita: 8332 o testnet: 18332)</translation>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 12341 or testnet: 19118)</source>
+        <translation>Connetti al JSON-RPC su &lt;port&gt; (predefinita: 12341 o testnet: 19118)</translation>
     </message>
     <message>
         <source>Connection options:</source>
