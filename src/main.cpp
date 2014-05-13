@@ -18,6 +18,7 @@
 #include "txmempool.h"
 #include "ui_interface.h"
 #include "util.h"
+#include "bignum.h"
 
 #include <sstream>
 
@@ -1243,23 +1244,23 @@ unsigned int static GravityWell(const CBlockIndex* pindexLast, const CBlockHeade
     int64_t             PastRateActualSeconds       = 0;
     int64_t             PastRateTargetSeconds       = 0;
     double              PastRateAdjustmentRatio     = double(1);
-    uint256             PastDifficultyAverage;
-    uint256             PastDifficultyAveragePrev;
+    CBigNum             PastDifficultyAverage;
+    CBigNum             PastDifficultyAveragePrev;
     double              EventHorizonDeviation;
     double              EventHorizonDeviationFast;
     double              EventHorizonDeviationSlow;
+    CBigNum             bnLimit                     = CBigNum(~uint256(0) >> 20);
 
-    if (BlockLastSolved == NULL || BlockLastSolved->nHeight == 0 || (uint64_t)BlockLastSolved->nHeight < PastBlocksMin) { return  Params().ProofOfWorkLimit().GetCompact(); }
+    if (BlockLastSolved == NULL || BlockLastSolved->nHeight == 0 || (uint64_t)BlockLastSolved->nHeight < PastBlocksMin) { return  bnLimit.GetCompact(); }
 
     for (unsigned int i = 1; BlockReading && BlockReading->nHeight > 0; i++) {
         if (PastBlocksMax > 0 && i > PastBlocksMax) { break; }
         PastBlocksMass++;
 
         if (i == 1) { PastDifficultyAverage.SetCompact(BlockReading->nBits); }
-        else        { PastDifficultyAverage = ((uint256().SetCompact(BlockReading->nBits) - PastDifficultyAveragePrev) / i) + PastDifficultyAveragePrev; }
-        
+        else        { PastDifficultyAverage = ((CBigNum().SetCompact(BlockReading->nBits) - PastDifficultyAveragePrev) / i) + PastDifficultyAveragePrev; }
         PastDifficultyAveragePrev = PastDifficultyAverage;
-    
+
         PastRateActualSeconds           = BlockLastSolved->GetBlockTime() - BlockReading->GetBlockTime();
         PastRateTargetSeconds           = TargetBlocksSpacingSeconds * PastBlocksMass;
         PastRateAdjustmentRatio         = double(1);
@@ -1278,23 +1279,22 @@ unsigned int static GravityWell(const CBlockIndex* pindexLast, const CBlockHeade
         BlockReading = BlockReading->pprev;
     }
 
-    uint256 bnNew(PastDifficultyAverage);
+    CBigNum bnNew(PastDifficultyAverage);
     if (PastRateActualSeconds != 0 && PastRateTargetSeconds != 0) {
         bnNew *= PastRateActualSeconds;
         bnNew /= PastRateTargetSeconds;
     }
-    LogPrintf("Real After:  %08x  %s\n", bnNew.GetCompact(), bnNew.ToString());
-
-    if (bnNew > Params().ProofOfWorkLimit()) { bnNew = Params().ProofOfWorkLimit(); }
+    if (bnNew > bnLimit) { bnNew = bnLimit; }
 
     /// debug print
     LogPrintf("Difficulty Retarget - Gravity Well\n");
     LogPrintf("PastRateAdjustmentRatio = %g\n", PastRateAdjustmentRatio);
-    LogPrintf("Before: %08x  %s\n", pindexLast->nBits, uint256().SetCompact(pindexLast->nBits).ToString());
-    LogPrintf("After:  %08x  %s\n", bnNew.GetCompact(), bnNew.ToString());
+    LogPrintf("Before: %08x  %s\n", pindexLast->nBits, CBigNum().SetCompact(pindexLast->nBits).getuint256().ToString());
+    LogPrintf("After:  %08x  %s\n", bnNew.GetCompact(), bnNew.getuint256().ToString());
 
 
     return bnNew.GetCompact();
+
 }
 
 unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHeader *pblock)
