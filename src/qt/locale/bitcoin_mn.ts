@@ -1,12 +1,12 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="cy" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="mn" version="2.1">
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Auroracoin Core</source>
+        <source>About Bitcoin Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>&lt;b&gt;Auroracoin Core&lt;/b&gt; version</source>
+        <source>&lt;b&gt;Bitcoin Core&lt;/b&gt; version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -23,7 +23,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>The Auroracoin Core developers</source>
+        <source>The Bitcoin Core developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -35,11 +35,11 @@ This product includes software developed by the OpenSSL Project for use in the O
     <name>AddressBookPage</name>
     <message>
         <source>Double-click to edit address or label</source>
-        <translation>Clicio dwywaith i olygu cyfeiriad neu label</translation>
+        <translation>Хаяг эсвэл шошгыг ѳѳрчлѳхийн тулд хоёр удаа дар</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>Creu cyfeiriad newydd</translation>
+        <translation>Шинэ хаяг нээх</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -47,7 +47,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Copio&apos;r cyfeiriad sydd wedi&apos;i ddewis i&apos;r clipfwrdd system</translation>
+        <translation>Одоогоор сонгогдсон байгаа хаягуудыг сануулах</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -59,7 +59,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>&amp;Copy Address</source>
-        <translation type="unfinished"/>
+        <translation>Хаягийг &amp;Хуулбарлах</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
@@ -75,7 +75,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;Dileu</translation>
+        <translation>&amp;Устгах</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
@@ -98,20 +98,20 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>These are your Auroracoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>These are your Auroracoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Copy &amp;Label</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Шошгыг хуулбарлах</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Ѳѳрчлѳх</translation>
     </message>
     <message>
         <source>Export Address List</source>
@@ -119,7 +119,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation type="unfinished"/>
+        <translation>Таслалаар тусгаарлагдсан хүснэгтэн файл (.csv)</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
@@ -134,15 +134,15 @@ This product includes software developed by the OpenSSL Project for use in the O
     <name>AddressTableModel</name>
     <message>
         <source>Label</source>
-        <translation>Label</translation>
+        <translation>Шошго</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Cyfeiriad</translation>
+        <translation>Хаяг</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(heb label)</translation>
+        <translation>(шошго алга)</translation>
     </message>
 </context>
 <context>
@@ -153,51 +153,51 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>Teipiwch gyfrinymadrodd</translation>
+        <translation>Нууц үгийг оруул</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>Cyfrinymadrodd newydd</translation>
+        <translation>Шинэ нууц үг</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>Ailadroddwch gyfrinymadrodd newydd</translation>
+        <translation>Шинэ нууц үгийг давтана уу</translation>
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Dewiswch gyfrinymadrodd newydd ar gyfer y waled. &lt;br/&gt; Defnyddiwch cyfrinymadrodd o &lt;b&gt;10 neu fwy o lythyrennau hapgyrch&lt;/b&gt;, neu &lt;b&gt; wyth neu fwy o eiriau.</translation>
+        <translation>Түрүйвчийн шинэ нууц үгийг оруул. &lt;br/&gt;&lt;b&gt;Дор хаяж 10 дурын үсэг/тоо бүхий&lt;/b&gt; эсвэл &lt;b&gt;дор хаяж 8 дурын үгнээс бүрдсэн&lt;/b&gt; нууц үгийг ашиглана уу. </translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
-        <translation>Amgryptio&apos;r waled</translation>
+        <translation>Түрүйвчийг цоожлох</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Mae angen i&apos;r gweithred hon ddefnyddio&apos;ch cyfrinymadrodd er mwyn datgloi&apos;r waled.</translation>
+        <translation>Энэ үйлдэлийг гүйцэтгэхийн тулд та нууц үгээрээ түрүйвчийн цоожийг тайлах хэрэгтэй</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Datgloi&apos;r waled</translation>
+        <translation>Түрүйвчийн цоожийг тайлах</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Mae angen i&apos;r gweithred hon ddefnyddio&apos;ch cyfrinymadrodd er mwyn dadgryptio&apos;r waled.</translation>
+        <translation>Энэ үйлдэлийг гүйцэтгэхийн тулд та эхлээд түрүйвчийн нууц үгийг оруулж цоожийг тайлах шаардлагтай.</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
-        <translation>Dadgryptio&apos;r waled</translation>
+        <translation>Түрүйвчийн цоожийг устгах</translation>
     </message>
     <message>
         <source>Change passphrase</source>
-        <translation>Newid cyfrinymadrodd</translation>
+        <translation>Нууц үгийг солих</translation>
     </message>
     <message>
         <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>Teipiwch yr hen cyfrinymadrodd a chyfrinymadrodd newydd i mewn i&apos;r waled.</translation>
+        <translation>Түрүйвчийн хуучин болоод шинэ нууц үгсийг оруулна уу</translation>
     </message>
     <message>
         <source>Confirm wallet encryption</source>
-        <translation>Cadarnau amgryptiad y waled</translation>
+        <translation>Түрүйвчийн цоожийг баталгаажуулах</translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
@@ -217,106 +217,106 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>Wallet encrypted</source>
-        <translation>Waled wedi&apos;i amgryptio</translation>
+        <translation>Түрүйвч цоожлогдлоо</translation>
     </message>
     <message>
-        <source>Auroracoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your auroracoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished"/>
+        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <translation>Цоожлолтын процесыг дуусгахын тулд Биткойн одоо хаагдана. Ѳѳрийн түрүйвчийг цоожлох нь таны биткойнуудыг компьютерийн вирус хулгайлахаас бүрэн сэргийлж чадахгүй гэдгийг санаарай.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
-        <translation>Amgryptiad waled wedi methu</translation>
+        <translation>Түрүйвчийн цоожлол амжилттай болсонгүй</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Methodd amgryptiad y waled oherwydd gwall mewnol. Ni amgryptwyd eich waled.</translation>
+        <translation>Түрүйвчийн цоожлол дотоод алдаанаас үүдэн амжилттай болсонгүй. Түрүйвч цоожлогдоогүй байна.</translation>
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
-        <translation>Dydy&apos;r cyfrinymadroddion a ddarparwyd ddim yn cyd-fynd â&apos;u gilydd.</translation>
+        <translation>Таны оруулсан нууц үг таарсангүй</translation>
     </message>
     <message>
         <source>Wallet unlock failed</source>
-        <translation>Methodd ddatgloi&apos;r waled</translation>
+        <translation>Түрүйвчийн цоож тайлагдсангүй</translation>
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation type="unfinished"/>
+        <translation>Таны оруулсан түрүйвчийн цоожийг тайлах нууц үг буруу байна</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
-        <translation>Methodd dadgryptiad y waled</translation>
+        <translation>Түрүйвчийн цоож амжилттай устгагдсангүй</translation>
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation type="unfinished"/>
+        <translation>Түрүйвчийн нууц үг амжилттай ѳѳр</translation>
     </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Зурвас хавсаргах...</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>Cysoni â&apos;r rhwydwaith...</translation>
+        <translation>Сүлжээтэй тааруулж байна...</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
-        <translation>&amp;Trosolwg</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Node</source>
-        <translation type="unfinished"/>
+        <translation>Нод</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>Dangos trosolwg cyffredinol y waled</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation>&amp;Trafodion</translation>
+        <translation>Гүйлгээнүүд</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>Pori hanes trafodion</translation>
+        <translation>Гүйлгээнүүдийн түүхийг харах</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation type="unfinished"/>
+        <translation>Гарах</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation>Gadael rhaglen</translation>
+        <translation>Програмаас Гарах</translation>
     </message>
     <message>
-        <source>Show information about Auroracoin</source>
-        <translation>Dangos gwybodaeth am Auroracoin</translation>
+        <source>Show information about Bitcoin</source>
+        <translation>Биткойны мэдээллийг харуулах</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Клиентийн тухай</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation type="unfinished"/>
+        <translation>Клиентийн тухай мэдээллийг харуул</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>&amp;Opsiynau</translation>
+        <translation>&amp;Сонголтууд...</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Түрүйвчийг цоожлох...</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Түрүйвчийг Жоорлох...</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Нууц Үгийг Солих...</translation>
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
@@ -339,11 +339,11 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Send coins to a Auroracoin address</source>
+        <source>Send coins to a Bitcoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Modify configuration options for Auroracoin</source>
+        <source>Modify configuration options for Bitcoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -352,7 +352,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Newid y cyfrinymadrodd a ddefnyddiwyd ar gyfer amgryptio&apos;r waled</translation>
+        <translation>Түрүйвчийг цоожлох нууц үгийг солих</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
@@ -360,19 +360,19 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>Open debugging and diagnostic console</source>
-        <translation type="unfinished"/>
+        <translation>Оношилгоо ба засварын консолыг онгойлго</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Auroracoin</source>
-        <translation type="unfinished"/>
+        <source>Bitcoin</source>
+        <translation>Биткойн</translation>
     </message>
     <message>
         <source>Wallet</source>
-        <translation type="unfinished"/>
+        <translation>Түрүйвч</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -384,7 +384,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Харуул / Нуу</translation>
     </message>
     <message>
         <source>Show or hide the main Window</source>
@@ -395,43 +395,43 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Sign messages with your Auroracoin addresses to prove you own them</source>
+        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Auroracoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>&amp;Ffeil</translation>
+        <translation>&amp;Файл</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>&amp;Gosodiadau</translation>
+        <translation>&amp;Тохиргоо</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;Cymorth</translation>
+        <translation>&amp;Тусламж</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation>Bar offer tabiau</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>[testnet]</source>
-        <translation>[testnet]</translation>
-    </message>
-    <message>
-        <source>Auroracoin Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Request payments (generates QR codes and auroracoin: URIs)</source>
+        <source>Bitcoin Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>&amp;About Auroracoin Core</source>
+        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>&amp;About Bitcoin Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -443,7 +443,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Open a auroracoin: URI or payment request</source>
+        <source>Open a bitcoin: URI or payment request</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -451,16 +451,16 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Show the Auroracoin Core help message to get a list with possible Auroracoin command-line options</source>
+        <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Auroracoin client</source>
-        <translation type="unfinished"/>
+        <source>Bitcoin client</source>
+        <translation>Биткойн клиент</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Auroracoin network</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
+        <source>%n active connection(s) to Bitcoin network</source>
+        <translation><numerusform>Биткойны сүлжээрүү %n идэвхитэй холболт байна </numerusform><numerusform>Биткойны сүлжээрүү %n идэвхитэй холболтууд байна </numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -476,15 +476,15 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
+        <translation><numerusform>%n цаг</numerusform><numerusform>%n цаг</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
+        <translation><numerusform>%n ѳдѳр</numerusform><numerusform>%n ѳдрүүд</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -492,7 +492,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -508,31 +508,31 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>Error</source>
-        <translation>Gwall</translation>
+        <translation>Алдаа</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Rhybudd</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Information</source>
-        <translation>Gwybodaeth</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Up to date</source>
-        <translation>Cyfamserol</translation>
+        <translation>Шинэчлэгдсэн</translation>
     </message>
     <message>
         <source>Catching up...</source>
-        <translation>Dal i fyny</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation>Trafodiad a anfonwyd</translation>
+        <translation>Гадагшаа гүйлгээ</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation>Trafodiad sy&apos;n cyrraedd</translation>
+        <translation>Дотогшоо гүйлгээ</translation>
     </message>
     <message>
         <source>Date: %1
@@ -540,18 +540,25 @@ Amount: %2
 Type: %3
 Address: %4
 </source>
-        <translation type="unfinished"/>
+        <translation>Огноо: %1
+
+Хэмжээ: %2 
+
+Тѳрѳл: %3 
+
+Хаяг: %4
+</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Mae&apos;r waled &lt;b&gt;wedi&apos;i amgryptio&lt;/b&gt; ac &lt;b&gt;heb ei gloi&lt;/b&gt; ar hyn o bryd</translation>
+        <translation>Түрүйвч &lt;b&gt;цоожтой&lt;/b&gt; ба одоогоор цоож &lt;b&gt;онгорхой&lt;/b&gt; байна</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Mae&apos;r waled &lt;b&gt;wedi&apos;i amgryptio&lt;/b&gt; ac &lt;b&gt;ar glo&lt;/b&gt; ar hyn o bryd</translation>
+        <translation>Түрүйвч &lt;b&gt;цоожтой&lt;/b&gt; ба одоогоор цоож &lt;b&gt;хаалттай&lt;/b&gt; байна</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Auroracoin can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -578,7 +585,7 @@ Address: %4
     </message>
     <message>
         <source>Amount:</source>
-        <translation type="unfinished"/>
+        <translation>Хэмжээ:</translation>
     </message>
     <message>
         <source>Priority:</source>
@@ -586,7 +593,7 @@ Address: %4
     </message>
     <message>
         <source>Fee:</source>
-        <translation type="unfinished"/>
+        <translation>Тѳлбѳр:</translation>
     </message>
     <message>
         <source>Low Output:</source>
@@ -614,15 +621,15 @@ Address: %4
     </message>
     <message>
         <source>Amount</source>
-        <translation type="unfinished"/>
+        <translation>Хэмжээ</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Cyfeiriad</translation>
+        <translation>Хаяг</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Dyddiad</translation>
+        <translation>Огноо</translation>
     </message>
     <message>
         <source>Confirmations</source>
@@ -630,7 +637,7 @@ Address: %4
     </message>
     <message>
         <source>Confirmed</source>
-        <translation type="unfinished"/>
+        <translation>Баталгаажлаа</translation>
     </message>
     <message>
         <source>Priority</source>
@@ -638,15 +645,15 @@ Address: %4
     </message>
     <message>
         <source>Copy address</source>
-        <translation type="unfinished"/>
+        <translation>Хаягийг санах</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation type="unfinished"/>
+        <translation>Шошгыг санах</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation type="unfinished"/>
+        <translation>Хэмжээг санах</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
@@ -686,7 +693,7 @@ Address: %4
     </message>
     <message>
         <source>Copy change</source>
-        <translation type="unfinished"/>
+        <translation>Ѳѳрчлѳлтийг санах</translation>
     </message>
     <message>
         <source>highest</source>
@@ -782,7 +789,7 @@ Address: %4
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(heb label)</translation>
+        <translation>(шошгогүй)</translation>
     </message>
     <message>
         <source>change from %1 (%2)</source>
@@ -790,18 +797,18 @@ Address: %4
     </message>
     <message>
         <source>(change)</source>
-        <translation type="unfinished"/>
+        <translation>(ѳѳрчлѳх)</translation>
     </message>
 </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation>Golygu&apos;r cyfeiriad</translation>
+        <translation>Хаягийг ѳѳрчлѳх</translation>
     </message>
     <message>
         <source>&amp;Label</source>
-        <translation>&amp;Label</translation>
+        <translation>&amp;Шошго</translation>
     </message>
     <message>
         <source>The label associated with this address list entry</source>
@@ -813,39 +820,39 @@ Address: %4
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation>&amp;Cyfeiriad</translation>
+        <translation>&amp;Хаяг</translation>
     </message>
     <message>
         <source>New receiving address</source>
-        <translation>Cyfeiriad derbyn newydd</translation>
+        <translation>Шинэ хүлээн авах хаяг</translation>
     </message>
     <message>
         <source>New sending address</source>
-        <translation>Cyfeiriad anfon newydd</translation>
+        <translation>Шинэ явуулах хаяг</translation>
     </message>
     <message>
         <source>Edit receiving address</source>
-        <translation>Golygu&apos;r cyfeiriad derbyn</translation>
+        <translation>Хүлээн авах хаягийг ѳѳрчлѳх</translation>
     </message>
     <message>
         <source>Edit sending address</source>
-        <translation>Golygu&apos;r cyfeiriad anfon</translation>
+        <translation>Явуулах хаягийг ѳѳрчлѳх</translation>
     </message>
     <message>
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
-        <translation>Mae&apos;r cyfeiriad &quot;%1&quot; sydd newydd gael ei geisio gennych yn y llyfr cyfeiriad yn barod.</translation>
+        <translation>Таны оруулсан хаяг &quot;%1&quot; нь хаягийн бүртгэлд ѳмнѳ нь орсон байна</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Auroracoin address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
-        <translation>Methodd ddatgloi&apos;r waled.</translation>
+        <translation>Түрүйвчийн цоожийг тайлж чадсангүй</translation>
     </message>
     <message>
         <source>New key generation failed.</source>
-        <translation>Methodd gynhyrchu allwedd newydd.</translation>
+        <translation>Шинэ түлхүүр амжилттай гарсангүй</translation>
     </message>
 </context>
 <context>
@@ -874,20 +881,20 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Auroracoin Core - Command-line options</source>
+        <source>Bitcoin Core - Command-line options</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Auroracoin Core</source>
+        <source>Bitcoin Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>version</source>
-        <translation type="unfinished"/>
+        <translation>хувилбар</translation>
     </message>
     <message>
         <source>Usage:</source>
-        <translation type="unfinished"/>
+        <translation>Хэрэглээ:</translation>
     </message>
     <message>
         <source>command-line options</source>
@@ -925,15 +932,15 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Welcome to Auroracoin Core.</source>
+        <source>Welcome to Bitcoin Core.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Auroracoin Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where Bitcoin Core will store its data.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Auroracoin Core will download and store a copy of the Auroracoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Bitcoin Core will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -945,8 +952,8 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Auroracoin</source>
-        <translation type="unfinished"/>
+        <source>Bitcoin</source>
+        <translation>Биткойн</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; can not be created.</source>
@@ -954,7 +961,7 @@ Address: %4
     </message>
     <message>
         <source>Error</source>
-        <translation>Gwall</translation>
+        <translation>Алдаа</translation>
     </message>
     <message>
         <source>GB of free space available</source>
@@ -992,7 +999,7 @@ Address: %4
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation>Opsiynau</translation>
+        <translation>Сонголтууд</translation>
     </message>
     <message>
         <source>&amp;Main</source>
@@ -1007,11 +1014,11 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Automatically start Auroracoin after logging in to the system.</source>
+        <source>Automatically start Bitcoin after logging in to the system.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>&amp;Start Auroracoin on system login</source>
+        <source>&amp;Start Bitcoin on system login</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1020,15 +1027,15 @@ Address: %4
     </message>
     <message>
         <source>MB</source>
-        <translation type="unfinished"/>
+        <translation>МБ</translation>
     </message>
     <message>
         <source>Number of script &amp;verification threads</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Connect to the Auroracoin network through a SOCKS proxy.</source>
-        <translation type="unfinished"/>
+        <source>Connect to the Bitcoin network through a SOCKS proxy.</source>
+        <translation>Биткойны сүлжээрүү SOCKS проксигоор холбогдох.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS proxy (default proxy):</source>
@@ -1036,7 +1043,7 @@ Address: %4
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
-        <translation type="unfinished"/>
+        <translation>проксигийн IP хаяг (жишээ нь: IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -1087,7 +1094,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Automatically open the Auroracoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1143,7 +1150,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Auroracoin.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1155,7 +1162,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Whether to show Auroracoin addresses in the transaction list or not.</source>
+        <source>Whether to show Bitcoin addresses in the transaction list or not.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1188,15 +1195,15 @@ Address: %4
     </message>
     <message>
         <source>Client restart required to activate changes.</source>
-        <translation type="unfinished"/>
+        <translation>Ѳѳрчлѳлтүүдийг идэвхижүүлхийн тулд клиентийг ахин эхлүүлэх шаардлагтай</translation>
     </message>
     <message>
         <source>Client will be shutdown, do you want to proceed?</source>
-        <translation type="unfinished"/>
+        <translation>Клиент унтрах гэж байна, яг унтраах уу?</translation>
     </message>
     <message>
         <source>This change would require a client restart.</source>
-        <translation type="unfinished"/>
+        <translation>Энэ ѳѳрчлѳлтийг оруулахын тулд кли1нт програмыг ахин эхлүүлэх шаардлагтай</translation>
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
@@ -1207,19 +1214,19 @@ Address: %4
     <name>OverviewPage</name>
     <message>
         <source>Form</source>
-        <translation>Ffurflen</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Auroracoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Wallet</source>
-        <translation type="unfinished"/>
+        <translation>Түрүйвч</translation>
     </message>
     <message>
         <source>Available:</source>
-        <translation type="unfinished"/>
+        <translation>Хэрэглэж болох хэмжээ:</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
@@ -1251,7 +1258,7 @@ Address: %4
     </message>
     <message>
         <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Trafodion diweddar&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Сүүлд хийгдсэн гүйлгээнүүд&lt;/b&gt;</translation>
     </message>
     <message>
         <source>out of sync</source>
@@ -1265,7 +1272,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>URI can not be parsed! This can be caused by an invalid Auroracoin address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1277,7 +1284,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Cannot start auroracoin: click-to-pay handler</source>
+        <source>Cannot start bitcoin: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1332,8 +1339,8 @@ Address: %4
 <context>
     <name>QObject</name>
     <message>
-        <source>Auroracoin</source>
-        <translation type="unfinished"/>
+        <source>Bitcoin</source>
+        <translation>Биткойн</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
@@ -1348,11 +1355,11 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Auroracoin Core didn&apos;t yet exit safely...</source>
+        <source>Bitcoin Core didn&apos;t yet exit safely...</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Enter a Auroracoin address (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1372,26 +1379,26 @@ Address: %4
     </message>
     <message>
         <source>PNG Image (*.png)</source>
-        <translation type="unfinished"/>
+        <translation>PNG форматын зураг (*.png)</translation>
     </message>
 </context>
 <context>
     <name>RPCConsole</name>
     <message>
         <source>Client name</source>
-        <translation type="unfinished"/>
+        <translation>Клиентийн нэр</translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation type="unfinished"/>
+        <translation>Алга Байна</translation>
     </message>
     <message>
         <source>Client version</source>
-        <translation type="unfinished"/>
+        <translation>Клиентийн хувилбар</translation>
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Мэдээллэл</translation>
     </message>
     <message>
         <source>Debug window</source>
@@ -1399,7 +1406,7 @@ Address: %4
     </message>
     <message>
         <source>General</source>
-        <translation type="unfinished"/>
+        <translation>Ерѳнхий</translation>
     </message>
     <message>
         <source>Using OpenSSL version</source>
@@ -1411,39 +1418,39 @@ Address: %4
     </message>
     <message>
         <source>Network</source>
-        <translation type="unfinished"/>
+        <translation>Сүлжээ</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished"/>
+        <translation>Нэр</translation>
     </message>
     <message>
         <source>Number of connections</source>
-        <translation type="unfinished"/>
+        <translation>Холболтын тоо</translation>
     </message>
     <message>
         <source>Block chain</source>
-        <translation type="unfinished"/>
+        <translation>Блокийн цуваа</translation>
     </message>
     <message>
         <source>Current number of blocks</source>
-        <translation type="unfinished"/>
+        <translation>Одоогийн блокийн тоо</translation>
     </message>
     <message>
         <source>Estimated total blocks</source>
-        <translation type="unfinished"/>
+        <translation>Нийт блокийн барагцаа</translation>
     </message>
     <message>
         <source>Last block time</source>
-        <translation type="unfinished"/>
+        <translation>Сүүлийн блокийн хугацаа</translation>
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Нээх</translation>
     </message>
     <message>
         <source>&amp;Console</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Консол</translation>
     </message>
     <message>
         <source>&amp;Network Traffic</source>
@@ -1474,15 +1481,15 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Open the Auroracoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Bitcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Clear console</source>
-        <translation type="unfinished"/>
+        <translation>Консолыг цэвэрлэх</translation>
     </message>
     <message>
-        <source>Welcome to the Auroracoin RPC console.</source>
+        <source>Welcome to the Bitcoin RPC console.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1530,7 +1537,7 @@ Address: %4
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;Label:</translation>
+        <translation>&amp;Шошго:</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -1545,7 +1552,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Auroracoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1582,27 +1589,27 @@ Address: %4
     </message>
     <message>
         <source>Show</source>
-        <translation type="unfinished"/>
+        <translation>Харуул</translation>
     </message>
     <message>
         <source>Remove the selected entries from the list</source>
-        <translation type="unfinished"/>
+        <translation>Сонгогдсон ѳгѳгдлүүдийг устгах</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation type="unfinished"/>
+        <translation>Устгах</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation type="unfinished"/>
+        <translation>Шошгыг санах</translation>
     </message>
     <message>
         <source>Copy message</source>
-        <translation type="unfinished"/>
+        <translation>Зурвасыг санах</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation type="unfinished"/>
+        <translation>Хэмжээг санах</translation>
     </message>
 </context>
 <context>
@@ -1637,19 +1644,19 @@ Address: %4
     </message>
     <message>
         <source>Address</source>
-        <translation>Cyfeiriad</translation>
+        <translation>Хаяг</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation type="unfinished"/>
+        <translation>Хэмжээ</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Label</translation>
+        <translation>Шошго</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>Neges</translation>
+        <translation>Зурвас</translation>
     </message>
     <message>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
@@ -1664,27 +1671,27 @@ Address: %4
     <name>RecentRequestsTableModel</name>
     <message>
         <source>Date</source>
-        <translation>Dyddiad</translation>
+        <translation>Огноо</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Label</translation>
+        <translation>Шошго</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>Neges</translation>
+        <translation>Зурвас</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation type="unfinished"/>
+        <translation>Хэмжээ</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(heb label)</translation>
+        <translation>(шошго алга)</translation>
     </message>
     <message>
         <source>(no message)</source>
-        <translation type="unfinished"/>
+        <translation>(зурвас алга)</translation>
     </message>
     <message>
         <source>(no amount)</source>
@@ -1695,7 +1702,7 @@ Address: %4
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Anfon arian</translation>
+        <translation>Зоос явуулах</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1707,11 +1714,11 @@ Address: %4
     </message>
     <message>
         <source>automatically selected</source>
-        <translation type="unfinished"/>
+        <translation>автоматаар сонгогдсон</translation>
     </message>
     <message>
         <source>Insufficient funds!</source>
-        <translation type="unfinished"/>
+        <translation>Таны дансны үлдэгдэл хүрэлцэхгүй байна!</translation>
     </message>
     <message>
         <source>Quantity:</source>
@@ -1723,7 +1730,7 @@ Address: %4
     </message>
     <message>
         <source>Amount:</source>
-        <translation type="unfinished"/>
+        <translation>Хэмжээ:</translation>
     </message>
     <message>
         <source>Priority:</source>
@@ -1731,7 +1738,7 @@ Address: %4
     </message>
     <message>
         <source>Fee:</source>
-        <translation type="unfinished"/>
+        <translation>Тѳлбѳр:</translation>
     </message>
     <message>
         <source>Low Output:</source>
@@ -1755,11 +1762,11 @@ Address: %4
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
-        <translation>Anfon at pobl lluosog ar yr un pryd</translation>
+        <translation>Нэгэн зэрэг олон хүлээн авагчруу явуулах</translation>
     </message>
     <message>
         <source>Add &amp;Recipient</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Хүлээн авагчийг Нэмэх</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
@@ -1767,27 +1774,27 @@ Address: %4
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Бүгдийг Цэвэрлэ</translation>
     </message>
     <message>
         <source>Balance:</source>
-        <translation>Gweddill:</translation>
+        <translation>Баланс:</translation>
     </message>
     <message>
         <source>Confirm the send action</source>
-        <translation>Cadarnhau&apos;r gweithrediad anfon</translation>
+        <translation>Явуулах үйлдлийг баталгаажуулна уу</translation>
     </message>
     <message>
         <source>S&amp;end</source>
-        <translation type="unfinished"/>
+        <translation>Яв&amp;уул</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation type="unfinished"/>
+        <translation>Зоос явуулахыг баталгаажуулна уу</translation>
     </message>
     <message>
         <source>%1 to %2</source>
-        <translation>%1 i %2</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Copy quantity</source>
@@ -1795,7 +1802,7 @@ Address: %4
     </message>
     <message>
         <source>Copy amount</source>
-        <translation type="unfinished"/>
+        <translation>Хэмжээг санах</translation>
     </message>
     <message>
         <source>Copy fee</source>
@@ -1819,15 +1826,15 @@ Address: %4
     </message>
     <message>
         <source>Copy change</source>
-        <translation type="unfinished"/>
+        <translation>Ѳѳрчлѳлтийг санах</translation>
     </message>
     <message>
         <source>Total Amount %1 (= %2)</source>
-        <translation type="unfinished"/>
+        <translation>Нийт дүн %1 (= %2)</translation>
     </message>
     <message>
         <source>or</source>
-        <translation type="unfinished"/>
+        <translation>эсвэл</translation>
     </message>
     <message>
         <source>The recipient address is not valid, please recheck.</source>
@@ -1835,15 +1842,15 @@ Address: %4
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
-        <translation type="unfinished"/>
+        <translation>Тѳлѳх хэмжээ 0.-оос их байх ёстой</translation>
     </message>
     <message>
         <source>The amount exceeds your balance.</source>
-        <translation type="unfinished"/>
+        <translation>Энэ хэмжээ таны балансаас хэтэрсэн байна.</translation>
     </message>
     <message>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation type="unfinished"/>
+        <translation>Гүйлгээний тѳлбѳр %1-ийг тооцхоор нийт дүн нь таны балансаас хэтрээд байна.</translation>
     </message>
     <message>
         <source>Duplicate address found, can only send to each address once per send operation.</source>
@@ -1858,12 +1865,12 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Warning: Invalid Auroracoin address</source>
-        <translation type="unfinished"/>
+        <source>Warning: Invalid Bitcoin address</source>
+        <translation>Анхаар:Буруу Биткойны хаяг байна</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(heb label)</translation>
+        <translation>(шошгогүй)</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -1890,23 +1897,23 @@ Address: %4
     <name>SendCoinsEntry</name>
     <message>
         <source>A&amp;mount:</source>
-        <translation>&amp;Maint</translation>
+        <translation>Дүн:</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
-        <translation type="unfinished"/>
+        <translation>Тѳлѳх &amp;хаяг:</translation>
     </message>
     <message>
-        <source>The address to send the payment to (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
+        <source>The address to send the payment to (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
-        <translation type="unfinished"/>
+        <translation>Энэ хаягийг ѳѳрийн бүртгэлдээ авахын тулд шошго оруул</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;Label:</translation>
+        <translation>&amp;Шошго:</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1922,7 +1929,7 @@ Address: %4
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Gludo cyfeiriad o&apos;r glipfwrdd</translation>
+        <translation>Копидсон хаягийг буулгах</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -1934,7 +1941,7 @@ Address: %4
     </message>
     <message>
         <source>Message:</source>
-        <translation type="unfinished"/>
+        <translation>Зурвас:</translation>
     </message>
     <message>
         <source>This is a verified payment request.</source>
@@ -1945,7 +1952,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>A message that was attached to the auroracoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Auroracoin network.</source>
+        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1964,12 +1971,12 @@ Address: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Auroracoin Core is shutting down...</source>
-        <translation type="unfinished"/>
+        <source>Bitcoin Core is shutting down...</source>
+        <translation>Биткойны цѳм хаагдаж байна...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
-        <translation type="unfinished"/>
+        <translation>Энэ цонхыг хаагдтал компьютерээ бүү унтраагаарай</translation>
     </message>
 </context>
 <context>
@@ -1987,7 +1994,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>The address to sign the message with (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
+        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2000,7 +2007,7 @@ Address: %4
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Gludo cyfeiriad o&apos;r glipfwrdd</translation>
+        <translation>Копидсон хаягийг буулгах</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -2019,7 +2026,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Sign the message to prove you own this Auroracoin address</source>
+        <source>Sign the message to prove you own this Bitcoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2032,7 +2039,7 @@ Address: %4
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Бүгдийг Цэвэрлэ</translation>
     </message>
     <message>
         <source>&amp;Verify Message</source>
@@ -2043,11 +2050,11 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>The address the message was signed with (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
+        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Auroracoin address</source>
+        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2059,7 +2066,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Enter a Auroracoin address (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2118,11 +2125,11 @@ Address: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Auroracoin Core</source>
+        <source>Bitcoin Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>The Auroracoin Core developers</source>
+        <source>The Bitcoin Core developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2141,11 +2148,11 @@ Address: %4
     <name>TransactionDesc</name>
     <message>
         <source>Open until %1</source>
-        <translation>Agor tan %1</translation>
+        <translation>%1 хүртэл нээлттэй</translation>
     </message>
     <message>
         <source>conflicted</source>
-        <translation type="unfinished"/>
+        <translation>зѳрчилдлѳѳ</translation>
     </message>
     <message>
         <source>%1/offline</source>
@@ -2153,11 +2160,11 @@ Address: %4
     </message>
     <message>
         <source>%1/unconfirmed</source>
-        <translation type="unfinished"/>
+        <translation>%1/баталгаажаагүй</translation>
     </message>
     <message>
         <source>%1 confirmations</source>
-        <translation type="unfinished"/>
+        <translation>%1 баталгаажилтууд</translation>
     </message>
     <message>
         <source>Status</source>
@@ -2165,11 +2172,11 @@ Address: %4
     </message>
     <message numerus="yes">
         <source>, broadcast through %n node(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Dyddiad</translation>
+        <translation>Огноо</translation>
     </message>
     <message>
         <source>Source</source>
@@ -2201,7 +2208,7 @@ Address: %4
     </message>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
         <source>not accepted</source>
@@ -2221,7 +2228,7 @@ Address: %4
     </message>
     <message>
         <source>Message</source>
-        <translation>Neges</translation>
+        <translation>Зурвас</translation>
     </message>
     <message>
         <source>Comment</source>
@@ -2253,7 +2260,7 @@ Address: %4
     </message>
     <message>
         <source>Amount</source>
-        <translation type="unfinished"/>
+        <translation>Хэмжээ</translation>
     </message>
     <message>
         <source>true</source>
@@ -2265,45 +2272,45 @@ Address: %4
     </message>
     <message>
         <source>, has not been successfully broadcast yet</source>
-        <translation type="unfinished"/>
+        <translation>, хараахан амжилттай цацагдаагүй байна</translation>
     </message>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
         <source>unknown</source>
-        <translation type="unfinished"/>
+        <translation>үл мэдэгдэх</translation>
     </message>
 </context>
 <context>
     <name>TransactionDescDialog</name>
     <message>
         <source>Transaction details</source>
-        <translation type="unfinished"/>
+        <translation>Гүйлгээний мэдээллэл</translation>
     </message>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation type="unfinished"/>
+        <translation>Гүйлгээний дэлгэрэнгүйг энэ бичил цонх харуулж байна</translation>
     </message>
 </context>
 <context>
     <name>TransactionTableModel</name>
     <message>
         <source>Date</source>
-        <translation>Dyddiad</translation>
+        <translation>Огноо</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation>Math</translation>
+        <translation>Тѳрѳл</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Cyfeiriad</translation>
+        <translation>Хаяг</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation type="unfinished"/>
+        <translation>Хэмжээ</translation>
     </message>
     <message>
         <source>Immature (%1 confirmations, will be available after %2)</source>
@@ -2311,23 +2318,23 @@ Address: %4
     </message>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
         <source>Open until %1</source>
-        <translation>Agor tan %1</translation>
+        <translation>%1 хүртэл нээлттэй</translation>
     </message>
     <message>
         <source>Confirmed (%1 confirmations)</source>
-        <translation type="unfinished"/>
+        <translation>Баталгаажлаа (%1 баталгаажилт)</translation>
     </message>
     <message>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation type="unfinished"/>
+        <translation>Энэ блокийг аль ч нод хүлээн авсангүй ба ер нь зѳвшѳѳрѳгдѳхгүй байж мэднэ!</translation>
     </message>
     <message>
         <source>Generated but not accepted</source>
-        <translation type="unfinished"/>
+        <translation>Үүсгэгдсэн гэхдээ хүлээн авагдаагүй</translation>
     </message>
     <message>
         <source>Offline</source>
@@ -2335,7 +2342,7 @@ Address: %4
     </message>
     <message>
         <source>Unconfirmed</source>
-        <translation type="unfinished"/>
+        <translation>Баталгаажаагүй</translation>
     </message>
     <message>
         <source>Confirming (%1 of %2 recommended confirmations)</source>
@@ -2343,78 +2350,78 @@ Address: %4
     </message>
     <message>
         <source>Conflicted</source>
-        <translation type="unfinished"/>
+        <translation>Зѳрчилдлѳѳ</translation>
     </message>
     <message>
         <source>Received with</source>
-        <translation type="unfinished"/>
+        <translation>Хүлээн авсан хаяг</translation>
     </message>
     <message>
         <source>Received from</source>
-        <translation type="unfinished"/>
+        <translation>Хүлээн авагдсан хаяг</translation>
     </message>
     <message>
         <source>Sent to</source>
-        <translation type="unfinished"/>
+        <translation>Явуулсан хаяг</translation>
     </message>
     <message>
         <source>Payment to yourself</source>
-        <translation type="unfinished"/>
+        <translation>Ѳѳрлүүгээ хийсэн тѳлбѳр</translation>
     </message>
     <message>
         <source>Mined</source>
-        <translation type="unfinished"/>
+        <translation>Олборлогдсон</translation>
     </message>
     <message>
         <source>(n/a)</source>
-        <translation type="unfinished"/>
+        <translation>(алга байна)</translation>
     </message>
     <message>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation type="unfinished"/>
+        <translation>Гүйлгээний байдал. Энд хулганыг авчирч баталгаажуулалтын тоог харна уу.</translation>
     </message>
     <message>
         <source>Date and time that the transaction was received.</source>
-        <translation type="unfinished"/>
+        <translation>Гүйлгээг хүлээн авсан огноо ба цаг.</translation>
     </message>
     <message>
         <source>Type of transaction.</source>
-        <translation type="unfinished"/>
+        <translation>Гүйлгээний тѳрѳл</translation>
     </message>
     <message>
         <source>Destination address of transaction.</source>
-        <translation type="unfinished"/>
+        <translation>Гүйлгээг хүлээн авах хаяг</translation>
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
-        <translation type="unfinished"/>
+        <translation>Балансаас авагдсан болон нэмэгдсэн хэмжээ.</translation>
     </message>
 </context>
 <context>
     <name>TransactionView</name>
     <message>
         <source>All</source>
-        <translation type="unfinished"/>
+        <translation>Бүгд</translation>
     </message>
     <message>
         <source>Today</source>
-        <translation>Heddiw</translation>
+        <translation>Ѳнѳѳдѳр</translation>
     </message>
     <message>
         <source>This week</source>
-        <translation type="unfinished"/>
+        <translation>Энэ долоо хоног</translation>
     </message>
     <message>
         <source>This month</source>
-        <translation type="unfinished"/>
+        <translation>Энэ сар</translation>
     </message>
     <message>
         <source>Last month</source>
-        <translation type="unfinished"/>
+        <translation>Ѳнгѳрсѳн сар</translation>
     </message>
     <message>
         <source>This year</source>
-        <translation>Eleni</translation>
+        <translation>Энэ жил</translation>
     </message>
     <message>
         <source>Range...</source>
@@ -2422,43 +2429,43 @@ Address: %4
     </message>
     <message>
         <source>Received with</source>
-        <translation type="unfinished"/>
+        <translation>Хүлээн авсан хаяг</translation>
     </message>
     <message>
         <source>Sent to</source>
-        <translation type="unfinished"/>
+        <translation>Явуулсан хаяг</translation>
     </message>
     <message>
         <source>To yourself</source>
-        <translation type="unfinished"/>
+        <translation>Ѳѳрлүүгээ</translation>
     </message>
     <message>
         <source>Mined</source>
-        <translation type="unfinished"/>
+        <translation>Олборлогдсон</translation>
     </message>
     <message>
         <source>Other</source>
-        <translation type="unfinished"/>
+        <translation>Бусад</translation>
     </message>
     <message>
         <source>Enter address or label to search</source>
-        <translation type="unfinished"/>
+        <translation>Хайлт хийхийн тулд хаяг эсвэл шошгыг оруул</translation>
     </message>
     <message>
         <source>Min amount</source>
-        <translation type="unfinished"/>
+        <translation>Хамгийн бага хэмжээ</translation>
     </message>
     <message>
         <source>Copy address</source>
-        <translation type="unfinished"/>
+        <translation>Хаягийг санах</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation type="unfinished"/>
+        <translation>Шошгыг санах</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation type="unfinished"/>
+        <translation>Хэмжээг санах</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
@@ -2466,11 +2473,11 @@ Address: %4
     </message>
     <message>
         <source>Edit label</source>
-        <translation type="unfinished"/>
+        <translation>Шошгыг ѳѳрчлѳх</translation>
     </message>
     <message>
         <source>Show transaction details</source>
-        <translation type="unfinished"/>
+        <translation>Гүйлгээний дэлгэрэнгүйг харуул</translation>
     </message>
     <message>
         <source>Export Transaction History</source>
@@ -2490,39 +2497,39 @@ Address: %4
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
-        <translation type="unfinished"/>
+        <translation>Гүйлгээнүй түүхийг %1-д амжилттай хадгаллаа.</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation type="unfinished"/>
+        <translation>Таслалаар тусгаарлагдсан хүснэгтэн файл (.csv)</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation type="unfinished"/>
+        <translation>Баталгаажлаа</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Dyddiad</translation>
+        <translation>Огноо</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation>Math</translation>
+        <translation>Тѳрѳл</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Label</translation>
+        <translation>Шошго</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Cyfeiriad</translation>
+        <translation>Хаяг</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation type="unfinished"/>
+        <translation>Хэмжээ</translation>
     </message>
     <message>
         <source>ID</source>
-        <translation type="unfinished"/>
+        <translation>Тодорхойлолт</translation>
     </message>
     <message>
         <source>Range:</source>
@@ -2530,21 +2537,21 @@ Address: %4
     </message>
     <message>
         <source>to</source>
-        <translation type="unfinished"/>
+        <translation>-рүү/руу</translation>
     </message>
 </context>
 <context>
     <name>WalletFrame</name>
     <message>
         <source>No wallet has been loaded.</source>
-        <translation type="unfinished"/>
+        <translation>Ямар ч түрүйвч ачааллагдсангүй.</translation>
     </message>
 </context>
 <context>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation type="unfinished"/>
+        <translation>Зоос явуулах</translation>
     </message>
 </context>
 <context>
@@ -2583,29 +2590,29 @@ Address: %4
     </message>
 </context>
 <context>
-    <name>auroracoin-core</name>
+    <name>bitcoin-core</name>
     <message>
         <source>Usage:</source>
-        <translation type="unfinished"/>
+        <translation>Хэрэглээ:</translation>
     </message>
     <message>
         <source>List commands</source>
-        <translation type="unfinished"/>
+        <translation>Үйлдлүүдийг жагсаах</translation>
     </message>
     <message>
         <source>Get help for a command</source>
-        <translation type="unfinished"/>
+        <translation>Үйлдэлд туслалцаа авах</translation>
     </message>
     <message>
         <source>Options:</source>
+        <translation>Сонголтууд:</translation>
+    </message>
+    <message>
+        <source>Specify configuration file (default: bitcoin.conf)</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Specify configuration file (default: auroracoin.conf)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Specify pid file (default: auroracoind.pid)</source>
+        <source>Specify pid file (default: bitcoind.pid)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2613,8 +2620,8 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: 12340 or testnet: 19117)</source>
-        <translation type="unfinished"/>
+        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
+        <translation>&lt;port&gt; дээрх холболтуудыг чагна (ѳгѳгдмѳл: 8333 эсвэл testnet: 18333)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
@@ -2641,7 +2648,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 12341 or testnet: 19118)</source>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2649,7 +2656,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Auroracoin Core RPC client version</source>
+        <source>Bitcoin Core RPC client version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2668,13 +2675,13 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=auroracoinrpc
+rpcuser=bitcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Auroracoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2747,7 +2754,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Auroracoin Alert&quot; admin@f
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Auroracoin Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. Bitcoin Core is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2759,7 +2766,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Auroracoin Alert&quot; admin@f
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Auroracoin will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2795,7 +2802,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Auroracoin Alert&quot; admin@f
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Auroracoin Core Daemon</source>
+        <source>Bitcoin Core Daemon</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2812,10 +2819,10 @@ for example: alertnotify=echo %%s | mail -s &quot;Auroracoin Alert&quot; admin@f
     </message>
     <message>
         <source>Connect through SOCKS proxy</source>
-        <translation type="unfinished"/>
+        <translation>SOCKS проксигоор холбогдох</translation>
     </message>
     <message>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: 12341 or testnet: 19118)</source>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3003,7 +3010,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Auroracoin Alert&quot; admin@f
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Usage (deprecated, use auroracoin-cli):</source>
+        <source>Usage (deprecated, use bitcoin-cli):</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3016,7 +3023,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Auroracoin Alert&quot; admin@f
     </message>
     <message>
         <source>Wait for RPC server to start</source>
-        <translation type="unfinished"/>
+        <translation>RPC серверийг эхэлтэл хүлээ</translation>
     </message>
     <message>
         <source>Wallet %s resides outside data directory %s</source>
@@ -3024,7 +3031,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Auroracoin Alert&quot; admin@f
     </message>
     <message>
         <source>Wallet options:</source>
-        <translation type="unfinished"/>
+        <translation>Түрүйвчийн сонголтууд:</translation>
     </message>
     <message>
         <source>Warning: Deprecated argument -debugnet ignored, use -debug=net</source>
@@ -3039,7 +3046,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Auroracoin Alert&quot; admin@f
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Auroracoin Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Bitcoin Core is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3056,7 +3063,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Auroracoin Alert&quot; admin@f
     </message>
     <message>
         <source>Information</source>
-        <translation>Gwybodaeth</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
@@ -3103,7 +3110,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Auroracoin Alert&quot; admin@f
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>RPC SSL options: (see the Auroracoin Wiki for SSL setup instructions)</source>
+        <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3123,11 +3130,11 @@ for example: alertnotify=echo %%s | mail -s &quot;Auroracoin Alert&quot; admin@f
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>SSL options: (see the Auroracoin Wiki for SSL setup instructions)</source>
+        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Send command to Auroracoin Core</source>
+        <source>Send command to Bitcoin Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3163,7 +3170,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Auroracoin Alert&quot; admin@f
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Start Auroracoin Core Daemon</source>
+        <source>Start Bitcoin Core Daemon</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3196,7 +3203,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Auroracoin Alert&quot; admin@f
     </message>
     <message>
         <source>Warning</source>
-        <translation>Rhybudd</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Warning: This version is obsolete, upgrade required!</source>
@@ -3212,7 +3219,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Auroracoin Alert&quot; admin@f
     </message>
     <message>
         <source>version</source>
-        <translation type="unfinished"/>
+        <translation>хувилбар</translation>
     </message>
     <message>
         <source>wallet.dat corrupt, salvage failed</source>
@@ -3236,7 +3243,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Auroracoin Alert&quot; admin@f
     </message>
     <message>
         <source>Upgrade wallet to latest format</source>
-        <translation type="unfinished"/>
+        <translation>Түрүйвчийг хамгийн сүүлийн үеийн форматруу шинэчлэх</translation>
     </message>
     <message>
         <source>Set key pool size to &lt;n&gt; (default: 100)</source>
@@ -3272,27 +3279,27 @@ for example: alertnotify=echo %%s | mail -s &quot;Auroracoin Alert&quot; admin@f
     </message>
     <message>
         <source>Loading addresses...</source>
-        <translation type="unfinished"/>
+        <translation>Хаягуудыг ачааллаж байна...</translation>
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation type="unfinished"/>
+        <translation>wallet.dat-ыг ачааллахад алдаа гарлаа: Түрүйвч эвдэрсэн байна</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Auroracoin</source>
-        <translation type="unfinished"/>
+        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
+        <translation>wallet.dat-ыг ачааллахад алдаа гарлаа: Түрүйвч Биткойны шинэ хувилбарыг шаардаж байна</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Auroracoin to complete</source>
+        <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <source>Error loading wallet.dat</source>
-        <translation type="unfinished"/>
+        <translation>wallet.dat-ыг ачааллахад алдаа гарлаа</translation>
     </message>
     <message>
         <source>Invalid -proxy address: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
+        <translation>Эдгээр прокси хаягнууд буруу байна: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
@@ -3316,23 +3323,23 @@ for example: alertnotify=echo %%s | mail -s &quot;Auroracoin Alert&quot; admin@f
     </message>
     <message>
         <source>Invalid amount</source>
-        <translation type="unfinished"/>
+        <translation>Буруу хэмжээ</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation type="unfinished"/>
+        <translation>Таны дансны үлдэгдэл хүрэлцэхгүй байна</translation>
     </message>
     <message>
         <source>Loading block index...</source>
-        <translation type="unfinished"/>
+        <translation>Блокийн индексүүдийг ачааллаж байна...</translation>
     </message>
     <message>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation type="unfinished"/>
+        <translation>Холболт хийхийн тулд мѳн холболтой онгорхой хадгалхын тулд шинэ нод нэм</translation>
     </message>
     <message>
         <source>Loading wallet...</source>
-        <translation type="unfinished"/>
+        <translation>Түрүйвчийг ачааллаж байна...</translation>
     </message>
     <message>
         <source>Cannot downgrade wallet</source>
@@ -3344,19 +3351,19 @@ for example: alertnotify=echo %%s | mail -s &quot;Auroracoin Alert&quot; admin@f
     </message>
     <message>
         <source>Rescanning...</source>
-        <translation type="unfinished"/>
+        <translation>Ахин уншиж байна...</translation>
     </message>
     <message>
         <source>Done loading</source>
-        <translation type="unfinished"/>
+        <translation>Ачааллаж дууслаа</translation>
     </message>
     <message>
         <source>To use the %s option</source>
-        <translation type="unfinished"/>
+        <translation>%s сонголтыг ашиглахын тулд</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Gwall</translation>
+        <translation>Алдаа</translation>
     </message>
     <message>
         <source>You must set rpcpassword=&lt;password&gt; in the configuration file:

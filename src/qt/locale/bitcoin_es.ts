@@ -1,4 +1,4 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="es" version="2.0">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="es" version="2.1">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -1051,6 +1051,14 @@ Dirección: %4
         <translation>Dirección IP del proxy (p. ej. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
     <message>
+        <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Third party transaction URLs</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
         <source>Active command-line options that override above options:</source>
         <translation>Opciones activas de consola de comandos que tienen preferencia sobre las opciones antes mencionadas:</translation>
     </message>
@@ -1352,7 +1360,7 @@ Dirección: %4
         <translation>Error: Combinación no válida de -regtest y -testnet.</translation>
     </message>
     <message>
-        <source>Auroracoin Core did&apos;t yet exit safely...</source>
+        <source>Auroracoin Core didn&apos;t yet exit safely...</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2971,7 +2979,7 @@ Por ejemplo: alertnotify=echo %%s | mail -s &quot;Auroracoin Alert&quot; admin@f
     </message>
     <message>
         <source>Importing...</source>
-        <translation type="unfinished"/>
+        <translation>Importando...</translation>
     </message>
     <message>
         <source>Incorrect or no genesis block found. Wrong datadir for network?</source>

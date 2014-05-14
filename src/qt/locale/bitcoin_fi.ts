@@ -1,4 +1,4 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="fi" version="2.0">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="fi" version="2.1">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -1048,6 +1048,14 @@ Osoite: %4</translation>
         <translation>IP osoite proxille (esim. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
     <message>
+        <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
+        <translation>Ulkopuoliset URL-osoitteet (esim. block explorer,) jotka esiintyvät siirrot-välilehdellä valikossa. %s URL-osoitteessa korvataan siirtotunnuksella. Useampi URL-osoite on eroteltu pystyviivalla |.</translation>
+        <source>Third party transaction URLs</source>
+    </message>
+    <message>
+        <translation type="unfinished"/>
+    </message>
+    <message>
         <source>Active command-line options that override above options:</source>
         <translation>Aktiiviset komentorivivalinnat jotka ohittavat ylläolevat valinnat:</translation>
     </message>
@@ -1349,8 +1357,8 @@ Osoite: %4</translation>
         <translation>Virhe: Virheellinen yhdistelmä -regtest ja -testnet.</translation>
     </message>
     <message>
-        <source>Auroracoin Core did&apos;t yet exit safely...</source>
-        <translation>Auroracoin Core ei vielä sulkeutunut turvallisesti...</translation>
+        <source> Auroracoin Core didn&apos;t yet exit safely...</source>
+        <translation> Auroracoin Core ei ole vielä sulkeutunut turvallisesti...</translation>
     </message>
     <message>
         <source>Enter a Auroracoin address (e.g. AJgZfkqagmjajiB5pbAuXfh7yG9M5iMY9v)</source>
