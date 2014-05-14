@@ -53,7 +53,7 @@ namespace Checkpoints
                     //   (the tx=... number in the SetBestChain debug.log lines)
         500.0     // * estimated number of transactions per day after checkpoint
     };
-    
+
     static MapCheckpoints mapCheckpointsTestnet =
         boost::assign::map_list_of
         ( 0, uint256("0xf423fe8eb935851f4baa40cfeb7120d84be32adf7876abf0fd293358a90f27a0"))
@@ -67,7 +67,7 @@ namespace Checkpoints
 
     static MapCheckpoints mapCheckpointsRegtest =
         boost::assign::map_list_of
-        ( 0, uint256("0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206"))
+        ( 0, uint256("0x190fc995db81aec386c25616376a0495b5aca80de1cc876e6d59ffe46d11e06a"))
         ;
     static const CCheckpointData dataRegtest = {
         &mapCheckpointsRegtest,
@@ -75,7 +75,7 @@ namespace Checkpoints
         0,
         0
     };
-    
+
     const CCheckpointData &Checkpoints() {
         if (Params().NetworkID() == CChainParams::TESTNET)
             return dataTestnet;
