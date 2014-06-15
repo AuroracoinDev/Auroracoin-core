@@ -54,11 +54,6 @@
         <layout class="QVBoxLayout" name="verticalLayout_2">
          <item>
           <widget class="QLabel" name="helpMessageLabel">
-           <property name="font">
-            <font>
-             <family>Terminal</family>
-            </font>
-           </property>
            <property name="cursor">
             <cursorShape>IBeamCursor</cursorShape>
            </property>

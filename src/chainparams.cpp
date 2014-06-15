@@ -6,8 +6,6 @@
 #include "chainparams.h"
 
 #include "assert.h"
-#include "core.h"
-#include "protocol.h"
 #include "util.h"
 
 #include <boost/assign/list_of.hpp>
@@ -32,6 +30,7 @@ unsigned int pnSeed[] =
 class CMainParams : public CChainParams {
 public:
     CMainParams() {
+        networkID = CChainParams::MAIN;
         // The message start string is designed to be unlikely to occur in normal data.
         // The characters are rarely used upper ASCII, not valid as UTF-8, and produce
         // a large 4-byte int at any alignment.
@@ -98,20 +97,17 @@ public:
             addr.nTime = GetTime() - GetRand(nOneWeek) - nOneWeek;
             vFixedSeeds.push_back(addr);
         }
-    }
 
-    virtual const CBlock& GenesisBlock() const { return genesis; }
-    virtual Network NetworkID() const { return CChainParams::MAIN; }
-
-    virtual const vector<CAddress>& FixedSeeds() const {
-        return vFixedSeeds;
+        fRequireRPCPassword = true;
+        fMiningRequiresPeers = true;
+        fDefaultCheckMemPool = false;
+        fAllowMinDifficultyBlocks = false;
+        fRequireStandard = true;
+        fRPCisTestNet = false;
+        fMineBlocksOnDemand = false;
     }
-protected:
-    CBlock genesis;
-    vector<CAddress> vFixedSeeds;
 };
 static CMainParams mainParams;
-
 
 //
 // Testnet (v3)
@@ -119,6 +115,7 @@ static CMainParams mainParams;
 class CTestNetParams : public CMainParams {
 public:
     CTestNetParams() {
+        networkID = CChainParams::TESTNET;
         // The message start string is designed to be unlikely to occur in normal data.
         // The characters are rarely used upper ASCII, not valid as UTF-8, and produce
         // a large 4-byte int at any alignment.
@@ -148,11 +145,17 @@ public:
         // Version bytes for HD-wallets. Same as bitcoin's "tprv", "tpub". See: BIP43 and BIP44
         base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x04)(0x35)(0x87)(0xCF);
         base58Prefixes[EXT_SECRET_KEY] = list_of(0x04)(0x35)(0x83)(0x94);
+
+        fRequireRPCPassword = true;
+        fMiningRequiresPeers = true;
+        fDefaultCheckMemPool = false;
+        fAllowMinDifficultyBlocks = true;
+        fRequireStandard = false;
+        fRPCisTestNet = true;
+        fMineBlocksOnDemand = false;
     }
-    virtual Network NetworkID() const { return CChainParams::TESTNET; }
 };
 static CTestNetParams testNetParams;
-
 
 //
 // Regression test
@@ -160,11 +163,16 @@ static CTestNetParams testNetParams;
 class CRegTestParams : public CTestNetParams {
 public:
     CRegTestParams() {
+        networkID = CChainParams::REGTEST;
         pchMessageStart[0] = 0xfa;
         pchMessageStart[1] = 0xbf;
         pchMessageStart[2] = 0xb5;
         pchMessageStart[3] = 0xda;
         nSubsidyHalvingInterval = 150;
+        nEnforceBlockUpgradeMajority = 750;
+        nRejectBlockOutdatedMajority = 950;
+        nToCheckBlockUpgradeMajority = 1000;
+        nMinerThreads = 1;
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         genesis.nTime = 1296688602;
         genesis.nBits = 0x207fffff;
@@ -175,10 +183,15 @@ public:
         assert(hashGenesisBlock == uint256("0x190fc995db81aec386c25616376a0495b5aca80de1cc876e6d59ffe46d11e06a"));
 
         vSeeds.clear();  // Regtest mode doesn't have any DNS seeds.
-    }
 
-    virtual bool RequireRPCPassword() const { return false; }
-    virtual Network NetworkID() const { return CChainParams::REGTEST; }
+        fRequireRPCPassword = false;
+        fMiningRequiresPeers = false;
+        fDefaultCheckMemPool = true;
+        fAllowMinDifficultyBlocks = true;
+        fRequireStandard = false;
+        fRPCisTestNet = true;
+        fMineBlocksOnDemand = true;
+    }
 };
 static CRegTestParams regTestParams;
 
