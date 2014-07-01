@@ -44,6 +44,7 @@
 #include <QUrlQuery>
 #endif
 
+using namespace std;
 using namespace boost;
 
 const int BITCOIN_IPC_CONNECT_TIMEOUT = 1000; // milliseconds
@@ -198,10 +199,10 @@ bool PaymentServer::ipcParseCommandLine(int argc, char* argv[])
             {
                 CBitcoinAddress address(r.address.toStdString());
 
-                SelectParams(CChainParams::MAIN);
+                SelectParams(CBaseChainParams::MAIN);
                 if (!address.IsValid())
                 {
-                    SelectParams(CChainParams::TESTNET);
+                    SelectParams(CBaseChainParams::TESTNET);
                 }
             }
         }
@@ -213,9 +214,9 @@ bool PaymentServer::ipcParseCommandLine(int argc, char* argv[])
             if (readPaymentRequest(arg, request))
             {
                 if (request.getDetails().network() == "main")
-                    SelectParams(CChainParams::MAIN);
+                    SelectParams(CBaseChainParams::MAIN);
                 else
-                    SelectParams(CChainParams::TESTNET);
+                    SelectParams(CBaseChainParams::TESTNET);
             }
         }
         else
@@ -490,17 +491,6 @@ bool PaymentServer::readPaymentRequest(const QString& filename, PaymentRequestPl
     return request.parse(data);
 }
 
-std::string PaymentServer::mapNetworkIdToName(CChainParams::Network networkId)
-{
-    if (networkId == CChainParams::MAIN)
-        return "main";
-    if (networkId == CChainParams::TESTNET)
-        return "test";
-    if (networkId == CChainParams::REGTEST)
-        return "regtest";
-    return "";
-}
-
 bool PaymentServer::processPaymentRequest(PaymentRequestPlus& request, SendCoinsRecipient& recipient)
 {
     if (!optionsModel)
@@ -510,7 +500,7 @@ bool PaymentServer::processPaymentRequest(PaymentRequestPlus& request, SendCoins
         const payments::PaymentDetails& details = request.getDetails();
 
         // Payment request network matches client network?
-        if (details.network() != mapNetworkIdToName(Params().NetworkID()))
+        if (details.network() != Params().NetworkIDString())
         {
             emit message(tr("Payment request rejected"), tr("Payment request network doesn't match client network."),
                 CClientUIInterface::MSG_ERROR);

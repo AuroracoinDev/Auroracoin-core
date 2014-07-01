@@ -12,8 +12,8 @@
 #include <boost/assign/list_of.hpp> // for 'map_list_of()'
 #include <boost/foreach.hpp>
 
-namespace Checkpoints
-{
+namespace Checkpoints {
+
     typedef std::map<int, uint256> MapCheckpoints;
 
     // How many times we expect transactions after the last checkpoint to
@@ -77,9 +77,9 @@ namespace Checkpoints
     };
 
     const CCheckpointData &Checkpoints() {
-        if (Params().NetworkID() == CChainParams::TESTNET)
+        if (Params().NetworkID() == CBaseChainParams::TESTNET)
             return dataTestnet;
-        else if (Params().NetworkID() == CChainParams::MAIN)
+        else if (Params().NetworkID() == CBaseChainParams::MAIN)
             return data;
         else
             return dataRegtest;
@@ -155,4 +155,5 @@ namespace Checkpoints
         }
         return NULL;
     }
-}
+
+} // namespace Checkpoints

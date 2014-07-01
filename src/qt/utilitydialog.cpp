@@ -26,18 +26,10 @@ HelpMessageDialog::HelpMessageDialog(QWidget *parent, bool about) :
     ui->setupUi(this);
     GUIUtil::restoreWindowGeometry("nHelpMessageDialogWindow", this->size(), this);
 
-    // Set current copyright year
-    ui->copyrightLabel->setText(tr("Copyright") + QString(" &copy; 2009-%1 ").arg(COPYRIGHT_YEAR) + tr("The Bitcoin Core developers") + QString("<br>") + tr("Copyright") + QString(" &copy; 2013-%1 ").arg(COPYRIGHT_YEAR) + tr("The Auroracoin developers"));
-}
-
-void AboutDialog::setModel(ClientModel *model)
-{
-    if(model)
-    {
-        QString version = model->formatFullVersion();
-        /* On x86 add a bit specifier to the version so that users can distinguish between
-         * 32 and 64 bit builds. On other architectures, 32/64 bit may be more ambigious.
-         */
+    QString version = tr("Auroracoin Core") + " " + tr("version") + " " + QString::fromStdString(FormatFullVersion());
+    /* On x86 add a bit specifier to the version so that users can distinguish between
+     * 32 and 64 bit builds. On other architectures, 32/64 bit may be more ambigious.
+     */
 #if defined(__x86_64__)
     version += " " + tr("(%1-bit)").arg(64);
 #elif defined(__i386__ )
@@ -66,12 +58,9 @@ void AboutDialog::setModel(ClientModel *model)
     } else {
         setWindowTitle(tr("Command-line options"));
         QString header = tr("Usage:") + "\n" +
-            "  bitcoin-qt [" + tr("command-line options") + "]                     " + "\n";
+            "  auroracoin-qt [" + tr("command-line options") + "]                     " + "\n";
 
-    header = tr("Auroracoin Core") + " " + tr("version") + " " +
-        QString::fromStdString(FormatFullVersion()) + "\n\n" +
-        tr("Usage:") + "\n" +
-        "  auroracoin-qt [" + tr("command-line options") + "]                     " + "\n";
+        QString coreOptions = QString::fromStdString(HelpMessage(HMM_BITCOIN_QT));
 
         QString uiOptions = tr("UI options") + ":\n" +
             "  -choosedatadir            " + tr("Choose data directory on startup (default: 0)") + "\n" +
@@ -128,6 +117,7 @@ void ShutdownWindow::showShutdownWindow(BitcoinGUI *window)
         tr("Auroracoin Core is shutting down...") + "<br /><br />" +
         tr("Do not shut down the computer until this window disappears.")));
     shutdownWindow->setLayout(layout);
+    shutdownWindow->setWindowTitle(window->windowTitle());
 
     // Center shutdown window at where main window was
     const QPoint global = window->mapToGlobal(window->rect().center());

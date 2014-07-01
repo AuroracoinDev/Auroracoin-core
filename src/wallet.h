@@ -141,6 +141,9 @@ public:
     MasterKeyMap mapMasterKeys;
     unsigned int nMasterKeyMaxID;
 
+    // Increment to cause UI refresh, similar to new block
+    int64_t nConflictsReceived;
+
     CWallet()
     {
         SetNull();
@@ -163,6 +166,7 @@ public:
         nNextResend = 0;
         nLastResend = 0;
         nTimeFirstKey = 0;
+        nConflictsReceived = 0;
     }
 
     std::map<uint256, CWalletTx> mapWallet;
@@ -244,8 +248,8 @@ public:
 
     void MarkDirty();
     bool AddToWallet(const CWalletTx& wtxIn, bool fFromLoadWallet=false);
-    void SyncTransaction(const uint256 &hash, const CTransaction& tx, const CBlock* pblock);
-    bool AddToWalletIfInvolvingMe(const uint256 &hash, const CTransaction& tx, const CBlock* pblock, bool fUpdate);
+    void SyncTransaction(const CTransaction& tx, const CBlock* pblock);
+    bool AddToWalletIfInvolvingMe(const CTransaction& tx, const CBlock* pblock, bool fUpdate);
     void EraseFromWallet(const uint256 &hash);
     int ScanForWalletTransactions(CBlockIndex* pindexStart, bool fUpdate = false);
     void ReacceptWalletTransactions();
@@ -305,6 +309,13 @@ public:
     {
         return (GetDebit(tx) > 0);
     }
+    bool IsConflicting(const CTransaction& tx) const
+    {
+  	    BOOST_FOREACH(const CTxIn& txin, tx.vin)
+    	    if (mapTxSpends.count(txin.prevout))
+    	        return true;
+   	    return false;
+    }
     int64_t GetDebit(const CTransaction& tx) const
     {
         int64_t nDebit = 0;
@@ -341,7 +352,7 @@ public:
     void SetBestChain(const CBlockLocator& loc);
 
     DBErrors LoadWallet(bool& fFirstRunRet);
-    DBErrors ZapWalletTx();
+    DBErrors ZapWalletTx(std::vector<CWalletTx>& vWtx);
 
     bool SetAddressBook(const CTxDestination& address, const std::string& strName, const std::string& purpose);
 
@@ -377,7 +388,7 @@ public:
     int GetVersion() { LOCK(cs_wallet); return nWalletVersion; }
 
     // Get wallet transactions that conflict with given transaction (spend same outputs)
-    std::set<uint256> GetConflicts(const uint256& txid) const;
+    std::set<uint256> GetConflicts(const uint256& txid, bool includeEquivalent) const;
 
     /** Address book entry changed.
      * @note called with lock cs_wallet held.
@@ -699,7 +710,7 @@ public:
 
     void RelayWalletTransaction();
 
-    std::set<uint256> GetConflicts() const;
+    std::set<uint256> GetConflicts(bool includeEquivalent=true) const;
 };
 
 

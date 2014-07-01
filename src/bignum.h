@@ -9,6 +9,7 @@
 #include "serialize.h"
 #include "uint256.h"
 #include "version.h"
+#include "util.h"
 
 #include <stdexcept>
 #include <stdint.h>
@@ -136,7 +137,7 @@ public:
 
         if (sn < (int64_t)0)
         {
-            // Since the minimum signed integer cannot be represented as positive so long as its type is signed, 
+            // Since the minimum signed integer cannot be represented as positive so long as its type is signed,
             // and it's not well-defined what happens if you make it unsigned before negating it,
             // we instead increment the negative integer by 1, convert it, then increment the (now positive) unsigned integer by 1 to compensate
             n = -(sn + 1);

@@ -24,6 +24,8 @@
 #include <QSet>
 #include <QTimer>
 
+using namespace std;
+
 WalletModel::WalletModel(CWallet *wallet, OptionsModel *optionsModel, QObject *parent) :
     QObject(parent), wallet(wallet), optionsModel(optionsModel), addressTableModel(0),
     transactionTableModel(0),
@@ -136,6 +138,14 @@ void WalletModel::checkBalanceChanged()
 
 void WalletModel::updateTransaction(const QString &hash, int status)
 {
+    if (status == CT_GOT_CONFLICT)
+    {
+        emit message(tr("Conflict Received"),
+                     tr("WARNING: Transaction may never be confirmed. Its input was seen being spent by another transaction on the network. Wait for confirmation!"),
+                     CClientUIInterface::MSG_WARNING);
+        return;
+    }
+
     if(transactionTableModel)
         transactionTableModel->updateTransaction(hash, status);
 

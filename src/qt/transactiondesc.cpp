@@ -12,11 +12,14 @@
 #include "main.h"
 #include "paymentserver.h"
 #include "transactionrecord.h"
+#include "timedata.h"
 #include "ui_interface.h"
 #include "wallet.h"
 
 #include <stdint.h>
 #include <string>
+
+using namespace std;
 
 QString TransactionDesc::FormatTxStatus(const CWalletTx& wtx)
 {
