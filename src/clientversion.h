@@ -15,7 +15,7 @@
 #define CLIENT_VERSION_BUILD       0
 
 // Set to true for release, false for prerelease or test build
-#define CLIENT_VERSION_IS_RELEASE  false
+#define CLIENT_VERSION_IS_RELEASE  true
 
 // Copyright year (2009-this)
 // Todo: update this when changing our copyright comments in the source
@@ -27,5 +27,8 @@
 // Don't merge these into one macro!
 #define STRINGIZE(X) DO_STRINGIZE(X)
 #define DO_STRINGIZE(X) #X
+
+// Copyright string used in Windows .rc files
+#define COPYRIGHT_STR          "2009-" STRINGIZE(COPYRIGHT_YEAR) " The Bitcoin Core Developers"
 
 #endif // CLIENTVERSION_H

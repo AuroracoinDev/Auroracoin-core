@@ -23,7 +23,7 @@ Release Process
 
 * * *
 
-##perform gitian builds
+###perform gitian builds
 
  From a directory containing the auroracoin source, gitian-builder and gitian.sigs
   
@@ -33,15 +33,20 @@ Release Process
 	git checkout v${VERSION}
 	popd
 	pushd ./gitian-builder
+
+###fetch and build inputs: (first time, or when dependency versions change)
+ 
         mkdir -p inputs; cd inputs/
 
- Register and download the Apple SDK (see OSX Readme for details)
-	visit https://developer.apple.com/downloads/download.action?path=Developer_Tools/xcode_4.6.3/xcode4630916281a.dmg
+ Register and download the Apple SDK: (see OSX Readme for details)
  
- Using a Mac, create a tarball for the 10.7 SDK
+ https://developer.apple.com/downloads/download.action?path=Developer_Tools/xcode_4.6.3/xcode4630916281a.dmg
+ 
+ Using a Mac, create a tarball for the 10.7 SDK and copy it to the inputs directory:
+ 
 	tar -C /Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/ -czf MacOSX10.7.sdk.tar.gz MacOSX10.7.sdk
 
- Fetch and build inputs: (first time, or when dependency versions change)
+ Download remaining inputs, and build everything:
 
 	wget 'http://miniupnp.free.fr/files/download.php?file=miniupnpc-1.9.tar.gz' -O miniupnpc-1.9.tar.gz
 	wget 'https://www.openssl.org/source/openssl-1.0.1h.tar.gz'
@@ -85,12 +90,12 @@ Release Process
 
  The expected SHA256 hashes of the intermediate inputs are:
 
-    35c3dfd8b9362f59e81b51881b295232e3bc9e286f1add193b59d486d9ac4a5c  auroracoin-deps-linux32-gitian-r5.zip
-    571789867d172500fa96d63d0ba8c5b1e1a3d6f44f720eddf2f93665affc88b3  auroracoin-deps-linux64-gitian-r5.zip
+    46710f673467e367738d8806e45b4cb5931aaeea61f4b6b55a68eea56d5006c5  bitcoin-deps-linux32-gitian-r6.zip
+    f03be39fb26670243d3a659e64d18e19d03dec5c11e9912011107768390b5268  bitcoin-deps-linux64-gitian-r6.zip
     f29b7d9577417333fb56e023c2977f5726a7c297f320b175a4108cf7cd4c2d29  boost-linux32-1.55.0-gitian-r1.zip
     88232451c4104f7eb16e469ac6474fd1231bd485687253f7b2bdf46c0781d535  boost-linux64-1.55.0-gitian-r1.zip
-    74ec2d301cf1a9d03b194153f545102ba45dad02b390485212fe6717de486361  qt-linux32-4.6.4-gitian-r1.tar.gz
-    01d0477e299467f09280f15424781154e2b1ea4072c5edb16e044c234954fd9a  qt-linux64-4.6.4-gitian-r1.tar.gz
+    57e57dbdadc818cd270e7e00500a5e1085b3bcbdef69a885f0fb7573a8d987e1  qt-linux32-4.6.4-gitian-r1.tar.gz
+    60eb4b9c5779580b7d66529efa5b2836ba1a70edde2a0f3f696d647906a826be  qt-linux64-4.6.4-gitian-r1.tar.gz
     60dc2d3b61e9c7d5dbe2f90d5955772ad748a47918ff2d8b74e8db9b1b91c909  boost-win32-1.55.0-gitian-r6.zip
     f65fcaf346bc7b73bc8db3a8614f4f6bee2f61fcbe495e9881133a7c2612a167  boost-win64-1.55.0-gitian-r6.zip
     97e62002d338885336bb24e7cbb9471491294bd8857af7a83d18c0961f864ec0  auroracoin-deps-win32-gitian-r11.zip
@@ -129,7 +134,8 @@ Release Process
 
   1. linux 32-bit and 64-bit binaries + source (auroracoin-${VERSION}-linux-gitian.zip)
   2. windows 32-bit and 64-bit binaries + installer + source (auroracoin-${VERSION}-win-gitian.zip)
-  3. Gitian signatures (in gitian.sigs/${VERSION}[-win]/(your gitian key)/
+  3. OSX installer (Auroracoin-Qt.dmg)
+  4. Gitian signatures (in gitian.sigs/${VERSION}[-win|-osx]/(your gitian key)/
 
 repackage gitian builds for release as stand-alone zip/tar/installer exe
 
@@ -180,8 +186,9 @@ repackage gitian builds for release as stand-alone zip/tar/installer exe
 Commit your signature to gitian.sigs:
 
 	pushd gitian.sigs
-	git add ${VERSION}/${SIGNER}
+	git add ${VERSION}-linux/${SIGNER}
 	git add ${VERSION}-win/${SIGNER}
+	git add ${VERSION}-osx/${SIGNER}
 	git commit -a
 	git push  # Assuming you can push to the gitian.sigs tree
 	popd
