@@ -232,7 +232,7 @@ auroracoind_LDADD = \
   $(LIBMEMENV)
 
 if USE_LIBSECP256K1
-  bitcoind_LDADD += secp256k1/libsecp256k1.la
+  auroracoind_LDADD += secp256k1/libsecp256k1.la
 endif
 
 if ENABLE_WALLET
@@ -259,9 +259,9 @@ auroracoin_cli_SOURCES = \
   bitcoin-cli.cpp
 
 if USE_LIBSECP256K1
-  bitcoin_cli_LDADD += secp256k1/libsecp256k1.la
+  auroracoin_cli_LDADD += secp256k1/libsecp256k1.la
 endif
-bitcoin_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
+auroracoin_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
 
 if TARGET_WINDOWS

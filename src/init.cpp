@@ -326,8 +326,8 @@ std::string HelpMessage(HelpMessageMode mode)
     strUsage += "  -rpcbind=<addr>        " + _("Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)") + "\n";
     strUsage += "  -rpcuser=<user>        " + _("Username for JSON-RPC connections") + "\n";
     strUsage += "  -rpcpassword=<pw>      " + _("Password for JSON-RPC connections") + "\n";
-    strUsage += "  -rpcport=<port>        " + _("Listen for JSON-RPC connections on <port> (default: 12341 or testnet: 19118)") + "\n";
-    strUsage += "  -rpcallowip=<ip>       " + _("Allow JSON-RPC connections from specified IP address. This option can be specified multiple times") + "\n";
+    strUsage += "  -rpcport=<port>        " + _("Listen for JSON-RPC connections on <port> (default: 12340 or testnet: 19117)") + "\n";
+    strUsage += "  -rpcallowip=<ip>       " + _("Allow JSON-RPC connections from specified source. Valid for <ip> are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times") + "\n";
     strUsage += "  -rpcthreads=<n>        " + _("Set the number of threads to service RPC calls (default: 4)") + "\n";
 
     strUsage += "\n" + _("RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)") + "\n";
@@ -617,24 +617,24 @@ bool AppInit2(boost::thread_group& threadGroup)
     // a transaction spammer can cheaply fill blocks using
     // 1-satoshi-fee transactions. It should be set above the real
     // cost to you of processing a transaction.
-    if (mapArgs.count("-mintxfee"))
-    {
-        int64_t n = 0;
-        if (ParseMoney(mapArgs["-mintxfee"], n) && n > 0)
-            CTransaction::minTxFee = CFeeRate(n);
-        else
-            return InitError(strprintf(_("Invalid amount for -mintxfee=<amount>: '%s'"), mapArgs["-mintxfee"]));
-    }
     if (mapArgs.count("-minrelaytxfee"))
     {
         int64_t n = 0;
         if (ParseMoney(mapArgs["-minrelaytxfee"], n) && n > 0)
-            CTransaction::minRelayTxFee = CFeeRate(n);
+            ::minRelayTxFee = CFeeRate(n);
         else
             return InitError(strprintf(_("Invalid amount for -minrelaytxfee=<amount>: '%s'"), mapArgs["-minrelaytxfee"]));
     }
 
 #ifdef ENABLE_WALLET
+    if (mapArgs.count("-mintxfee"))
+    {
+        int64_t n = 0;
+        if (ParseMoney(mapArgs["-mintxfee"], n) && n > 0)
+            CWallet::minTxFee = CFeeRate(n);
+        else
+            return InitError(strprintf(_("Invalid amount for -mintxfee=<amount>: '%s'"), mapArgs["-mintxfee"]));
+    }
     if (mapArgs.count("-paytxfee"))
     {
         int64_t nFeePerK = 0;
@@ -643,7 +643,13 @@ bool AppInit2(boost::thread_group& threadGroup)
         if (nFeePerK > nHighTransactionFeeWarning)
             InitWarning(_("Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction."));
         payTxFee = CFeeRate(nFeePerK, 1000);
+        if (payTxFee < ::minRelayTxFee)
+        {
+            return InitError(strprintf(_("Invalid amount for -paytxfee=<amount>: '%s' (must be at least %s)"),
+                                       mapArgs["-paytxfee"], ::minRelayTxFee.ToString()));
+        }
     }
+    nTxConfirmTarget = GetArg("-txconfirmtarget", 1);
     bSpendZeroConfChange = GetArg("-spendzeroconfchange", true);
 
     std::string strWalletFile = GetArg("-wallet", "wallet.dat");
@@ -1182,7 +1188,7 @@ bool AppInit2(boost::thread_group& threadGroup)
     LogPrintf("mapAddressBook.size() = %u\n",  pwalletMain ? pwalletMain->mapAddressBook.size() : 0);
 #endif
 
-    RegisterInternalSignals();
+    InitRespendFilter();
     StartNode(threadGroup);
     if (fServer)
         StartRPCThreads();

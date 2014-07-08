@@ -38,7 +38,11 @@ QT_TRANSLATE_NOOP("bitcoin-core", ""
 "Bind to given address and always listen on it. Use [host]:port notation for "
 "IPv6"),
 QT_TRANSLATE_NOOP("bitcoin-core", ""
-"Cannot obtain a lock on data directory %s. Auroracoin is probably already "
+"Bind to given address to listen for JSON-RPC connections. Use [host]:port "
+"notation for IPv6. This option can be specified multiple times (default: "
+"bind to all interfaces)"),
+QT_TRANSLATE_NOOP("bitcoin-core", ""
+"Cannot obtain a lock on data directory %s. Auroracoin Core is probably already "
 "running."),
 QT_TRANSLATE_NOOP("bitcoin-core", ""
 "Continuously rate-limit free transactions to <n>*1000 bytes per minute "
@@ -148,7 +152,6 @@ QT_TRANSLATE_NOOP("bitcoin-core", "Cannot resolve -externalip address: '%s'"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Cannot write default address"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Connect only to the specified node(s)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Connect through SOCKS proxy"),
-QT_TRANSLATE_NOOP("bitcoin-core", "Connect to JSON-RPC on <port> (default: 12341 or testnet: 19118)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Connect to a node to retrieve peer addresses, and disconnect"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Connection options:"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Copyright (C) 2009-%i The Bitcoin Core Developers"),
@@ -205,7 +208,6 @@ QT_TRANSLATE_NOOP("bitcoin-core", "Invalid amount for -paytxfee=<amount>: '%s'")
 QT_TRANSLATE_NOOP("bitcoin-core", "Invalid amount"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Keep at most <n> unconnectable blocks in memory (default: %u)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Limit size of signature cache to <n> entries (default: 50000)"),
-QT_TRANSLATE_NOOP("bitcoin-core", "List commands"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Listen for connections on <port> (default: 12340 or testnet: 19117)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Loading addresses..."),
 QT_TRANSLATE_NOOP("bitcoin-core", "Loading block index..."),
@@ -235,8 +237,6 @@ QT_TRANSLATE_NOOP("bitcoin-core", "Rescanning..."),
 QT_TRANSLATE_NOOP("bitcoin-core", "Run a thread to flush wallet periodically (default: 1)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Run in the background as a daemon and accept commands"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Select SOCKS version for -proxy (4 or 5, default: 5)"),
-QT_TRANSLATE_NOOP("bitcoin-core", "Send command to Auroracoin Core"),
-QT_TRANSLATE_NOOP("bitcoin-core", "Send commands to node running on <ip> (default: 127.0.0.1)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Send trace/debug info to console instead of debug.log file"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Server certificate file (default: server.cert)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Server private key (default: server.pem)"),
@@ -257,7 +257,7 @@ QT_TRANSLATE_NOOP("bitcoin-core", "Specify pid file (default: auroracoind.pid)")
 QT_TRANSLATE_NOOP("bitcoin-core", "Specify wallet file (within data directory)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Specify your own public address"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Spend unconfirmed change when sending transactions (default: 1)"),
-QT_TRANSLATE_NOOP("bitcoin-core", "Start Auroracoin server"),
+QT_TRANSLATE_NOOP("bitcoin-core", "Stop running after importing blocks from disk (default: 0)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "System error: "),
 QT_TRANSLATE_NOOP("bitcoin-core", "This help message"),
 QT_TRANSLATE_NOOP("bitcoin-core", "This is experimental software."),
@@ -271,8 +271,6 @@ QT_TRANSLATE_NOOP("bitcoin-core", "Unable to bind to %s on this computer (bind r
 QT_TRANSLATE_NOOP("bitcoin-core", "Unknown -socks proxy version requested: %i"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Unknown network specified in -onlynet: '%s'"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Upgrade wallet to latest format"),
-QT_TRANSLATE_NOOP("bitcoin-core", "Usage (deprecated, use auroracoin-cli):"),
-QT_TRANSLATE_NOOP("bitcoin-core", "Usage:"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Use OpenSSL (https) for JSON-RPC connections"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Use UPnP to map the listening port (default: 0)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Use UPnP to map the listening port (default: 1 when listening)"),
@@ -281,7 +279,7 @@ QT_TRANSLATE_NOOP("bitcoin-core", "Username for JSON-RPC connections"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Verifying blocks..."),
 QT_TRANSLATE_NOOP("bitcoin-core", "Verifying wallet..."),
 QT_TRANSLATE_NOOP("bitcoin-core", "Wallet %s resides outside data directory %s"),
-QT_TRANSLATE_NOOP("bitcoin-core", "Wallet needed to be rewritten: restart Auroracoin Core to complete"),
+QT_TRANSLATE_NOOP("bitcoin-core", "Wallet needed to be rewritten: restart Auroracoin to complete"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Wallet options:"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Warning"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Warning: Deprecated argument -debugnet ignored, use -debug=net"),
